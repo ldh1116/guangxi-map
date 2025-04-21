@@ -1,0 +1,2929 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_55966a5955e7b7dac1f7362b196b72e7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_55966a5955e7b7dac1f7362b196b72e7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_55966a5955e7b7dac1f7362b196b72e7 = L.map(
+                "map_55966a5955e7b7dac1f7362b196b72e7",
+                {
+                    center: [23.5, 108.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cceeab5e8b902406cd5b002051d29b0b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var circle_marker_f5f990c1091dfabfd7ce9ce2e06e5154 = L.circleMarker(
+                [22.817, 108.366],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_947dd5840b3f3a1f95a2fba623e43cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_810c6cf66acd6f2f2f86588aa7494776 = $(`<div id="html_810c6cf66acd6f2f2f86588aa7494776" style="width: 100.0%; height: 100.0%;">南宁</div>`)[0];
+            popup_947dd5840b3f3a1f95a2fba623e43cc1.setContent(html_810c6cf66acd6f2f2f86588aa7494776);
+        
+
+        circle_marker_f5f990c1091dfabfd7ce9ce2e06e5154.bindPopup(popup_947dd5840b3f3a1f95a2fba623e43cc1)
+        ;
+
+        
+    
+    
+            var marker_73dcd66d80619923d9355d85ffb4aba3 = L.marker(
+                [22.917, 108.366],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_8b84e1cafa43f975f3ac781d7cae9de2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u5357\u5b81\u003c/div\u003e"});
+            marker_73dcd66d80619923d9355d85ffb4aba3.setIcon(div_icon_8b84e1cafa43f975f3ac781d7cae9de2);
+        
+    
+            var circle_marker_e918851c412ac03c20b6e5b00c27f248 = L.circleMarker(
+                [25.234, 110.179],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_0082d60a1c61cec447b815325f00fd8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd22bcac0bd5804298299bcc0d98f67e = $(`<div id="html_bd22bcac0bd5804298299bcc0d98f67e" style="width: 100.0%; height: 100.0%;">桂林</div>`)[0];
+            popup_0082d60a1c61cec447b815325f00fd8f.setContent(html_bd22bcac0bd5804298299bcc0d98f67e);
+        
+
+        circle_marker_e918851c412ac03c20b6e5b00c27f248.bindPopup(popup_0082d60a1c61cec447b815325f00fd8f)
+        ;
+
+        
+    
+    
+            var marker_6e3e6c7cd53e378bcd49f346b7f9fa74 = L.marker(
+                [25.334000000000003, 110.179],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_1d3961a7de0cd6b786c83b40af627133 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u6842\u6797\u003c/div\u003e"});
+            marker_6e3e6c7cd53e378bcd49f346b7f9fa74.setIcon(div_icon_1d3961a7de0cd6b786c83b40af627133);
+        
+    
+            var circle_marker_b49ef2d5645e9d2a4a8178c828830e80 = L.circleMarker(
+                [23.902, 106.618],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_e1e0bae7a51879d8eab4817a0e4012f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d90be68a55e29f7fe6494cfbe8e5a243 = $(`<div id="html_d90be68a55e29f7fe6494cfbe8e5a243" style="width: 100.0%; height: 100.0%;">百色</div>`)[0];
+            popup_e1e0bae7a51879d8eab4817a0e4012f5.setContent(html_d90be68a55e29f7fe6494cfbe8e5a243);
+        
+
+        circle_marker_b49ef2d5645e9d2a4a8178c828830e80.bindPopup(popup_e1e0bae7a51879d8eab4817a0e4012f5)
+        ;
+
+        
+    
+    
+            var marker_d373d4011c8ac6a6c60b9c70575c2a08 = L.marker(
+                [24.002000000000002, 106.618],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_04fa51e744767eee80da7a0bf6d3ef26 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u767e\u8272\u003c/div\u003e"});
+            marker_d373d4011c8ac6a6c60b9c70575c2a08.setIcon(div_icon_04fa51e744767eee80da7a0bf6d3ef26);
+        
+    
+            var circle_marker_981506dc3beda02c4d2df929c6a6df39 = L.circleMarker(
+                [24.326, 109.428],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_e1f0bbd2ed2456d476cf6786d6d43488 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_645b01f21f9a799f1e878d13d276b878 = $(`<div id="html_645b01f21f9a799f1e878d13d276b878" style="width: 100.0%; height: 100.0%;">柳州</div>`)[0];
+            popup_e1f0bbd2ed2456d476cf6786d6d43488.setContent(html_645b01f21f9a799f1e878d13d276b878);
+        
+
+        circle_marker_981506dc3beda02c4d2df929c6a6df39.bindPopup(popup_e1f0bbd2ed2456d476cf6786d6d43488)
+        ;
+
+        
+    
+    
+            var marker_fdbc9d724287089c60769161912e1ac9 = L.marker(
+                [24.426000000000002, 109.428],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_1d452ed87524e24b286148c1ab94d3fb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u67f3\u5dde\u003c/div\u003e"});
+            marker_fdbc9d724287089c60769161912e1ac9.setIcon(div_icon_1d452ed87524e24b286148c1ab94d3fb);
+        
+    
+            var circle_marker_6f48304541bebeca4a0b6215e33339a2 = L.circleMarker(
+                [23.476, 111.279],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_f5e60f96538fa1fa9fafc0fb3405091d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfab713946fe116dd8d8c719cfbeabe8 = $(`<div id="html_dfab713946fe116dd8d8c719cfbeabe8" style="width: 100.0%; height: 100.0%;">梧州</div>`)[0];
+            popup_f5e60f96538fa1fa9fafc0fb3405091d.setContent(html_dfab713946fe116dd8d8c719cfbeabe8);
+        
+
+        circle_marker_6f48304541bebeca4a0b6215e33339a2.bindPopup(popup_f5e60f96538fa1fa9fafc0fb3405091d)
+        ;
+
+        
+    
+    
+            var marker_3835417955005983f01832550baf4f25 = L.marker(
+                [23.576, 111.279],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_f19d9fdd34ece99072740652222b45df = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u68a7\u5dde\u003c/div\u003e"});
+            marker_3835417955005983f01832550baf4f25.setIcon(div_icon_f19d9fdd34ece99072740652222b45df);
+        
+    
+            var circle_marker_9593dbcee6c28a7d2cef92a1c88c5aba = L.circleMarker(
+                [24.403, 111.566],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_52c72b3882d3c76d3afb66aa5506a306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7492bbd1d51fbb299cec1cd37d2d2d9f = $(`<div id="html_7492bbd1d51fbb299cec1cd37d2d2d9f" style="width: 100.0%; height: 100.0%;">贺州</div>`)[0];
+            popup_52c72b3882d3c76d3afb66aa5506a306.setContent(html_7492bbd1d51fbb299cec1cd37d2d2d9f);
+        
+
+        circle_marker_9593dbcee6c28a7d2cef92a1c88c5aba.bindPopup(popup_52c72b3882d3c76d3afb66aa5506a306)
+        ;
+
+        
+    
+    
+            var marker_3b312d7b2c8848bf51ad71cfc1414992 = L.marker(
+                [24.503, 111.566],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_7624bb7e7b08c25e30098f6f9815e3ff = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u8d3a\u5dde\u003c/div\u003e"});
+            marker_3b312d7b2c8848bf51ad71cfc1414992.setIcon(div_icon_7624bb7e7b08c25e30098f6f9815e3ff);
+        
+    
+            var circle_marker_2896df4ac0f10a9014c04b10425cd944 = L.circleMarker(
+                [22.654, 110.181],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_f5ae46a11b5f24db67b9ab8d4e16c4ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d229a69edaaa280695d11f9c912f6c6 = $(`<div id="html_4d229a69edaaa280695d11f9c912f6c6" style="width: 100.0%; height: 100.0%;">玉林</div>`)[0];
+            popup_f5ae46a11b5f24db67b9ab8d4e16c4ca.setContent(html_4d229a69edaaa280695d11f9c912f6c6);
+        
+
+        circle_marker_2896df4ac0f10a9014c04b10425cd944.bindPopup(popup_f5ae46a11b5f24db67b9ab8d4e16c4ca)
+        ;
+
+        
+    
+    
+            var marker_93bbffb9986ab6c6136cc91c4e0623f2 = L.marker(
+                [22.754, 110.181],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_b84d8f7066e18079923cd3a7a0f3eb68 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u7389\u6797\u003c/div\u003e"});
+            marker_93bbffb9986ab6c6136cc91c4e0623f2.setIcon(div_icon_b84d8f7066e18079923cd3a7a0f3eb68);
+        
+    
+            var circle_marker_f74196b31653da9eeba01adfec2a3173 = L.circleMarker(
+                [22.415, 107.365],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_00c4183502d10e8e313d03b9958209a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34fa903f6096866837890e1ac4483b9f = $(`<div id="html_34fa903f6096866837890e1ac4483b9f" style="width: 100.0%; height: 100.0%;">崇左</div>`)[0];
+            popup_00c4183502d10e8e313d03b9958209a4.setContent(html_34fa903f6096866837890e1ac4483b9f);
+        
+
+        circle_marker_f74196b31653da9eeba01adfec2a3173.bindPopup(popup_00c4183502d10e8e313d03b9958209a4)
+        ;
+
+        
+    
+    
+            var marker_57a1fdd0a71f980ebcb751bdbeddad9b = L.marker(
+                [22.515, 107.365],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_fdd383528be7515b3a2ccb625e63df8e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u5d07\u5de6\u003c/div\u003e"});
+            marker_57a1fdd0a71f980ebcb751bdbeddad9b.setIcon(div_icon_fdd383528be7515b3a2ccb625e63df8e);
+        
+    
+            var circle_marker_239716f83abcad0de15af0a46b2e238a = L.circleMarker(
+                [23.697, 109.229],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_2ab7b88cc9649f15345006473e8e441f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_606d50b8620603ffe1060c65767b485f = $(`<div id="html_606d50b8620603ffe1060c65767b485f" style="width: 100.0%; height: 100.0%;">来宾</div>`)[0];
+            popup_2ab7b88cc9649f15345006473e8e441f.setContent(html_606d50b8620603ffe1060c65767b485f);
+        
+
+        circle_marker_239716f83abcad0de15af0a46b2e238a.bindPopup(popup_2ab7b88cc9649f15345006473e8e441f)
+        ;
+
+        
+    
+    
+            var marker_9e75d55fe95539e8f19c83d975fbd885 = L.marker(
+                [23.797, 109.229],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_834c5e1756669bd9d3caa24a94ddab3d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u6765\u5bbe\u003c/div\u003e"});
+            marker_9e75d55fe95539e8f19c83d975fbd885.setIcon(div_icon_834c5e1756669bd9d3caa24a94ddab3d);
+        
+    
+            var circle_marker_bedf6cef78fd74ef77657f62dfd829fd = L.circleMarker(
+                [24.692, 108.085],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_bbb9618386f051d9ccd30c4b8b44200b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd87bbe0581f99ef1e367154e05f5249 = $(`<div id="html_bd87bbe0581f99ef1e367154e05f5249" style="width: 100.0%; height: 100.0%;">河池</div>`)[0];
+            popup_bbb9618386f051d9ccd30c4b8b44200b.setContent(html_bd87bbe0581f99ef1e367154e05f5249);
+        
+
+        circle_marker_bedf6cef78fd74ef77657f62dfd829fd.bindPopup(popup_bbb9618386f051d9ccd30c4b8b44200b)
+        ;
+
+        
+    
+    
+            var marker_3b9b72d70123a87e625fefd95b3031e4 = L.marker(
+                [24.792, 108.085],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_55029a51696b489a85a621754a748b6e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u6cb3\u6c60\u003c/div\u003e"});
+            marker_3b9b72d70123a87e625fefd95b3031e4.setIcon(div_icon_55029a51696b489a85a621754a748b6e);
+        
+    
+            var circle_marker_2148663f2a33d8a681943d7a2788830e = L.circleMarker(
+                [21.614, 108.353],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_176e0ff493a5570ae26407250d0b4ba4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_699fce5a0238c8427fd85bfb996070dc = $(`<div id="html_699fce5a0238c8427fd85bfb996070dc" style="width: 100.0%; height: 100.0%;">防城港</div>`)[0];
+            popup_176e0ff493a5570ae26407250d0b4ba4.setContent(html_699fce5a0238c8427fd85bfb996070dc);
+        
+
+        circle_marker_2148663f2a33d8a681943d7a2788830e.bindPopup(popup_176e0ff493a5570ae26407250d0b4ba4)
+        ;
+
+        
+    
+    
+            var marker_680d6ce6d3847953d9034f84b314ec25 = L.marker(
+                [21.714000000000002, 108.353],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_8b00a15b0b8cef58f2d324b0bd456570 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u9632\u57ce\u6e2f\u003c/div\u003e"});
+            marker_680d6ce6d3847953d9034f84b314ec25.setIcon(div_icon_8b00a15b0b8cef58f2d324b0bd456570);
+        
+    
+            var circle_marker_ee370b9aa0654c5c9cc67837e26b43bf = L.circleMarker(
+                [21.481, 109.12],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_f11434c5d341bd33d6b2f1da345db4a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e6e1df8f0370b6718d130e27b95c041 = $(`<div id="html_3e6e1df8f0370b6718d130e27b95c041" style="width: 100.0%; height: 100.0%;">北海</div>`)[0];
+            popup_f11434c5d341bd33d6b2f1da345db4a3.setContent(html_3e6e1df8f0370b6718d130e27b95c041);
+        
+
+        circle_marker_ee370b9aa0654c5c9cc67837e26b43bf.bindPopup(popup_f11434c5d341bd33d6b2f1da345db4a3)
+        ;
+
+        
+    
+    
+            var marker_e735f707910063eaa0f8dedd7929d4c1 = L.marker(
+                [21.581000000000003, 109.12],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_bc1563f66a0c485311ae87218f0da6e1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u5317\u6d77\u003c/div\u003e"});
+            marker_e735f707910063eaa0f8dedd7929d4c1.setIcon(div_icon_bc1563f66a0c485311ae87218f0da6e1);
+        
+    
+            var circle_marker_7faf977a6d6cb2d8fad2d398d69d0720 = L.circleMarker(
+                [21.968, 108.654],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+        var popup_dc14f78765c8825163a1bd74ac07c56a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_890b4b81dd124b5f473a9ea4beee0969 = $(`<div id="html_890b4b81dd124b5f473a9ea4beee0969" style="width: 100.0%; height: 100.0%;">钦州</div>`)[0];
+            popup_dc14f78765c8825163a1bd74ac07c56a.setContent(html_890b4b81dd124b5f473a9ea4beee0969);
+        
+
+        circle_marker_7faf977a6d6cb2d8fad2d398d69d0720.bindPopup(popup_dc14f78765c8825163a1bd74ac07c56a)
+        ;
+
+        
+    
+    
+            var marker_91cb5c46464d6bfbec87b055559335cf = L.marker(
+                [22.068, 108.654],
+                {}
+            ).addTo(map_55966a5955e7b7dac1f7362b196b72e7);
+        
+    
+            var div_icon_192aad778e9bbb3557aa7a2c043c61e7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size:10pt\"\u003e\u94a6\u5dde\u003c/div\u003e"});
+            marker_91cb5c46464d6bfbec87b055559335cf.setIcon(div_icon_192aad778e9bbb3557aa7a2c043c61e7);
+        
+    
+            var marker_cluster_b80f135de7b4bed150b81d7105e68cf0 = L.markerClusterGroup(
+                {}
+            );
+            map_55966a5955e7b7dac1f7362b196b72e7.addLayer(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var marker_42d350160c2ba02859c84175398fd3d5 = L.marker(
+                [25.23766539064866, 110.15522680417449],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_8beeb00622cc8b0a05cd0f67f2687aea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_42d350160c2ba02859c84175398fd3d5.setIcon(icon_8beeb00622cc8b0a05cd0f67f2687aea);
+        
+    
+        var popup_be8d2d951c1865a931001846950f1e0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a00fcf5ea5d66cc8ea99a970a27544ed = $(`<div id="html_a00fcf5ea5d66cc8ea99a970a27544ed" style="width: 100.0%; height: 100.0%;"><b>桂林象鼻山景区</b><br>地址：广西壮族自治区桂林市象山区民主路1号<br>特色：酷似象鼻的标志性景观<br>价格：¥0起</div>`)[0];
+            popup_be8d2d951c1865a931001846950f1e0e.setContent(html_a00fcf5ea5d66cc8ea99a970a27544ed);
+        
+
+        marker_42d350160c2ba02859c84175398fd3d5.bindPopup(popup_be8d2d951c1865a931001846950f1e0e)
+        ;
+
+        
+    
+    
+            var marker_857cdb7ecbbabae031569e7e0913d715 = L.marker(
+                [22.859504627086263, 108.32113859925865],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_faddf04217b4f392077d26fe3f979cfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_857cdb7ecbbabae031569e7e0913d715.setIcon(icon_faddf04217b4f392077d26fe3f979cfc);
+        
+    
+        var popup_4e54df7b327c464f3b614187621334e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c670398499f35d21d70d4400b4531b9 = $(`<div id="html_1c670398499f35d21d70d4400b4531b9" style="width: 100.0%; height: 100.0%;"><b>南宁动物园</b><br>地址：广西壮族自治区南宁市西乡塘区大学西路3号<br>特色：动物王国的欢乐<br>价格：¥20起</div>`)[0];
+            popup_4e54df7b327c464f3b614187621334e7.setContent(html_1c670398499f35d21d70d4400b4531b9);
+        
+
+        marker_857cdb7ecbbabae031569e7e0913d715.bindPopup(popup_4e54df7b327c464f3b614187621334e7)
+        ;
+
+        
+    
+    
+            var marker_31a26fc6f847f2a6172ddc80d1c70d04 = L.marker(
+                [23.919310452282062, 106.63788096766372],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_0a0f1a2caca517f31f52ea1cae814d41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_31a26fc6f847f2a6172ddc80d1c70d04.setIcon(icon_0a0f1a2caca517f31f52ea1cae814d41);
+        
+    
+        var popup_dd13d708b74b1af05b30a20ede4eed95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da3c1d123ead5c809103ae1bd61d51cb = $(`<div id="html_da3c1d123ead5c809103ae1bd61d51cb" style="width: 100.0%; height: 100.0%;"><b>百色起义纪念园</b><br>地址：广西壮族自治区百色市右江区城东大道百色起义纪念公园内城东路1...<br>特色：全国红色旅游经典景区<br>价格：¥0起</div>`)[0];
+            popup_dd13d708b74b1af05b30a20ede4eed95.setContent(html_da3c1d123ead5c809103ae1bd61d51cb);
+        
+
+        marker_31a26fc6f847f2a6172ddc80d1c70d04.bindPopup(popup_dd13d708b74b1af05b30a20ede4eed95)
+        ;
+
+        
+    
+    
+            var marker_c62a39fb8dc1d25a88df470a205ba499 = L.marker(
+                [22.834914453722437, 108.40193641457081],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_7376d049386e715c5e0953764d1b77c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c62a39fb8dc1d25a88df470a205ba499.setIcon(icon_7376d049386e715c5e0953764d1b77c2);
+        
+    
+        var popup_e845b2a29a7edd70f77db077489c1a18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6143600e32864f910596813ac34b3bb = $(`<div id="html_b6143600e32864f910596813ac34b3bb" style="width: 100.0%; height: 100.0%;"><b>青秀山</b><br>地址：广西壮族自治区南宁市青秀区凤岭南路6-6号<br>特色：天然氧吧，为誉为南宁市的巨肺<br>价格：¥10起</div>`)[0];
+            popup_e845b2a29a7edd70f77db077489c1a18.setContent(html_b6143600e32864f910596813ac34b3bb);
+        
+
+        marker_c62a39fb8dc1d25a88df470a205ba499.bindPopup(popup_e845b2a29a7edd70f77db077489c1a18)
+        ;
+
+        
+    
+    
+            var marker_7c7bd8884652fbf2467d4993f32dd453 = L.marker(
+                [22.79232190421747, 108.40205834806908],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_7ae97f3efac131f6ed38c9bb14c4f5be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7c7bd8884652fbf2467d4993f32dd453.setIcon(icon_7ae97f3efac131f6ed38c9bb14c4f5be);
+        
+    
+        var popup_eaa3d32d75c74cd5215dcfc7731dbf4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_844fdbf62802ece8f6d621c8936aa2db = $(`<div id="html_844fdbf62802ece8f6d621c8936aa2db" style="width: 100.0%; height: 100.0%;"><b>南宁园博园</b><br>地址：广西壮族自治区南宁市邕宁区蒲兴大道20号<br>特色：南宁出游必去的园林景点<br>价格：¥20起</div>`)[0];
+            popup_eaa3d32d75c74cd5215dcfc7731dbf4b.setContent(html_844fdbf62802ece8f6d621c8936aa2db);
+        
+
+        marker_7c7bd8884652fbf2467d4993f32dd453.bindPopup(popup_eaa3d32d75c74cd5215dcfc7731dbf4b)
+        ;
+
+        
+    
+    
+            var marker_effdb5f74aba81cdd67306383572a3ba = L.marker(
+                [24.411377639633596, 111.55051276994091],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_0785bfea60ac20b669bb8b478984b7a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_effdb5f74aba81cdd67306383572a3ba.setIcon(icon_0785bfea60ac20b669bb8b478984b7a0);
+        
+    
+        var popup_8b73dda3c531edacc1c3dd626d928784 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4541543f08ba7f91feca83496b38fe33 = $(`<div id="html_4541543f08ba7f91feca83496b38fe33" style="width: 100.0%; height: 100.0%;"><b>黄姚古镇</b><br>地址：广西壮族自治区贺州市昭平县黄姚古镇<br>特色：素有“诗境家园“之称<br>价格：¥44起</div>`)[0];
+            popup_8b73dda3c531edacc1c3dd626d928784.setContent(html_4541543f08ba7f91feca83496b38fe33);
+        
+
+        marker_effdb5f74aba81cdd67306383572a3ba.bindPopup(popup_8b73dda3c531edacc1c3dd626d928784)
+        ;
+
+        
+    
+    
+            var marker_788821353a87b4a3da8a438e0a0d7532 = L.marker(
+                [21.52366907011944, 109.11485713073978],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_4559938a421749897bb3f6fb86831d51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_788821353a87b4a3da8a438e0a0d7532.setIcon(icon_4559938a421749897bb3f6fb86831d51);
+        
+    
+        var popup_bc1e8c17d0f87367a16eb5bc6925770f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e7d0471558e074cb54628e6868d0cee = $(`<div id="html_0e7d0471558e074cb54628e6868d0cee" style="width: 100.0%; height: 100.0%;"><b>涠洲岛</b><br>地址：广西壮族自治区北海市海城区涠洲镇<br>特色：观熔岩奇观 享海岛慢生活<br>价格：¥15起</div>`)[0];
+            popup_bc1e8c17d0f87367a16eb5bc6925770f.setContent(html_0e7d0471558e074cb54628e6868d0cee);
+        
+
+        marker_788821353a87b4a3da8a438e0a0d7532.bindPopup(popup_bc1e8c17d0f87367a16eb5bc6925770f)
+        ;
+
+        
+    
+    
+            var marker_b59442e753a87ecc7daefcb2e79757fd = L.marker(
+                [22.782632500506438, 108.35546492442506],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_14ac6890194d2767367daf23c7541487 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b59442e753a87ecc7daefcb2e79757fd.setIcon(icon_14ac6890194d2767367daf23c7541487);
+        
+    
+        var popup_2d0d2e8aded9feb1946b1698373d85b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fd71f71746f59b7e372cfa74d5548dd = $(`<div id="html_0fd71f71746f59b7e372cfa74d5548dd" style="width: 100.0%; height: 100.0%;"><b>广西民族博物馆</b><br>地址：广西壮族自治区南宁市青环路11号<br>特色：镇馆之宝雷纹大铜鼓<br>价格：¥0起</div>`)[0];
+            popup_2d0d2e8aded9feb1946b1698373d85b5.setContent(html_0fd71f71746f59b7e372cfa74d5548dd);
+        
+
+        marker_b59442e753a87ecc7daefcb2e79757fd.bindPopup(popup_2d0d2e8aded9feb1946b1698373d85b5)
+        ;
+
+        
+    
+    
+            var marker_c809c22282fe79195fac068bc3f483b5 = L.marker(
+                [22.77623871930449, 108.35382236852622],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_bd72bda99f4db6ed1950e7d25da3c2d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c809c22282fe79195fac068bc3f483b5.setIcon(icon_bd72bda99f4db6ed1950e7d25da3c2d9);
+        
+    
+        var popup_5ef660b4419cbcacf3aa0dc9176a8df1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d044a633f8efd46c130b3ee61cfa53f9 = $(`<div id="html_d044a633f8efd46c130b3ee61cfa53f9" style="width: 100.0%; height: 100.0%;"><b>龙门水都</b><br>地址：广西壮族自治区南宁市西乡塘区新际路69号龙门水都景区<br>特色：四季常青的生态氧吧<br>价格：¥9.9起</div>`)[0];
+            popup_5ef660b4419cbcacf3aa0dc9176a8df1.setContent(html_d044a633f8efd46c130b3ee61cfa53f9);
+        
+
+        marker_c809c22282fe79195fac068bc3f483b5.bindPopup(popup_5ef660b4419cbcacf3aa0dc9176a8df1)
+        ;
+
+        
+    
+    
+            var marker_9db59d35dab593dc44eda680849b7188 = L.marker(
+                [23.90148693219978, 106.6099591274275],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_2c5cc4ef7d66878e7d8105547e150496 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9db59d35dab593dc44eda680849b7188.setIcon(icon_2c5cc4ef7d66878e7d8105547e150496);
+        
+    
+        var popup_5c00b1796e7086cb31e5dbbd8e95814c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46398dd4e6dcfd903ae12cea860f327e = $(`<div id="html_46398dd4e6dcfd903ae12cea860f327e" style="width: 100.0%; height: 100.0%;"><b>鹅泉</b><br>地址：广西壮族自治区百色市靖西市新靖镇鹅泉村念安屯西城东路902号<br>特色：跨国瀑布德天瀑布的源头<br>价格：¥24起</div>`)[0];
+            popup_5c00b1796e7086cb31e5dbbd8e95814c.setContent(html_46398dd4e6dcfd903ae12cea860f327e);
+        
+
+        marker_9db59d35dab593dc44eda680849b7188.bindPopup(popup_5c00b1796e7086cb31e5dbbd8e95814c)
+        ;
+
+        
+    
+    
+            var marker_bb0899b9fbeb2b4271409def376c7856 = L.marker(
+                [25.281007363242637, 110.22836062041324],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_67af5dbd68cbcdf05d94a53da423aac1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bb0899b9fbeb2b4271409def376c7856.setIcon(icon_67af5dbd68cbcdf05d94a53da423aac1);
+        
+    
+        var popup_6f40767570f3fd3978741a677a1530f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2977858d21a164ce8039e65f747f7924 = $(`<div id="html_2977858d21a164ce8039e65f747f7924" style="width: 100.0%; height: 100.0%;"><b>桂林两江四湖景区</b><br>地址：广西壮族自治区桂林市象山区滨江路2号<br>特色：乘船环湖，赏桂林城景<br>价格：¥45起</div>`)[0];
+            popup_6f40767570f3fd3978741a677a1530f4.setContent(html_2977858d21a164ce8039e65f747f7924);
+        
+
+        marker_bb0899b9fbeb2b4271409def376c7856.bindPopup(popup_6f40767570f3fd3978741a677a1530f4)
+        ;
+
+        
+    
+    
+            var marker_e403ffd086e439e166962f37b9fbee6a = L.marker(
+                [24.43683465483075, 111.52700215209865],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_dd5f9bbf66105ce35e7efeccce290f89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e403ffd086e439e166962f37b9fbee6a.setIcon(icon_dd5f9bbf66105ce35e7efeccce290f89);
+        
+    
+        var popup_7fe8f573758afe7ee0514e6ddbe7787e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b81f4edb9b18653fdefcf870f06a437 = $(`<div id="html_1b81f4edb9b18653fdefcf870f06a437" style="width: 100.0%; height: 100.0%;"><b>姑婆山国家森林公园</b><br>地址：广西贺州市平桂区姑婆山国家森林公园<br>特色：华南地区的天然森林氧吧<br>价格：¥66起</div>`)[0];
+            popup_7fe8f573758afe7ee0514e6ddbe7787e.setContent(html_1b81f4edb9b18653fdefcf870f06a437);
+        
+
+        marker_e403ffd086e439e166962f37b9fbee6a.bindPopup(popup_7fe8f573758afe7ee0514e6ddbe7787e)
+        ;
+
+        
+    
+    
+            var marker_d47c3ae4c158ca0bf31931290405fd7b = L.marker(
+                [23.729747260349292, 109.25865669187051],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_1b8bdd63a078ab4eb99635b3c8e88465 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d47c3ae4c158ca0bf31931290405fd7b.setIcon(icon_1b8bdd63a078ab4eb99635b3c8e88465);
+        
+    
+        var popup_d80c5fa3e888bdd718952bb82e5e1607 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1b466c728cee48323cfa87ecb422804 = $(`<div id="html_b1b466c728cee48323cfa87ecb422804" style="width: 100.0%; height: 100.0%;"><b>大瑶山盘王界景区</b><br>地址：广西壮族自治区来宾市金秀瑶族自治县金秀镇<br>特色：整个山体酷似一朵含苞待放的莲花<br>价格：¥0起</div>`)[0];
+            popup_d80c5fa3e888bdd718952bb82e5e1607.setContent(html_b1b466c728cee48323cfa87ecb422804);
+        
+
+        marker_d47c3ae4c158ca0bf31931290405fd7b.bindPopup(popup_d80c5fa3e888bdd718952bb82e5e1607)
+        ;
+
+        
+    
+    
+            var marker_3e1857d02b78d59ad24a9ca769b3e1b8 = L.marker(
+                [22.39311369845071, 107.32886413496117],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_9700eabe795f560fcc9ad7b269719b75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_3e1857d02b78d59ad24a9ca769b3e1b8.setIcon(icon_9700eabe795f560fcc9ad7b269719b75);
+        
+    
+        var popup_dddefb3ddd6739c3b78264bb608a5828 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e744ddfb09c5308e90a836fbf583ede3 = $(`<div id="html_e744ddfb09c5308e90a836fbf583ede3" style="width: 100.0%; height: 100.0%;"><b>德天跨国瀑布景区</b><br>地址：广西壮族自治区崇左市大新县德天村沿边公路西侧<br>特色：亚洲跨国瀑布中越边境山水画廊<br>价格：¥35起</div>`)[0];
+            popup_dddefb3ddd6739c3b78264bb608a5828.setContent(html_e744ddfb09c5308e90a836fbf583ede3);
+        
+
+        marker_3e1857d02b78d59ad24a9ca769b3e1b8.bindPopup(popup_dddefb3ddd6739c3b78264bb608a5828)
+        ;
+
+        
+    
+    
+            var marker_e62777a494cacb96ecb37d83fa2cc141 = L.marker(
+                [25.244544877814775, 110.1751508965244],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_8b446d0dd0acc09f41412f317fc7c108 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e62777a494cacb96ecb37d83fa2cc141.setIcon(icon_8b446d0dd0acc09f41412f317fc7c108);
+        
+    
+        var popup_4662cf50a5cb02ae65b999a07e23bd8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff0cab13d46bca5485a3073aeb7bf79e = $(`<div id="html_ff0cab13d46bca5485a3073aeb7bf79e" style="width: 100.0%; height: 100.0%;"><b>银子岩</b><br>地址：广西壮族自治区桂林市荔浦市马岭镇小青山屯<br>特色：世界岩溶宝库，桂林山水的代表<br>价格：¥65起</div>`)[0];
+            popup_4662cf50a5cb02ae65b999a07e23bd8e.setContent(html_ff0cab13d46bca5485a3073aeb7bf79e);
+        
+
+        marker_e62777a494cacb96ecb37d83fa2cc141.bindPopup(popup_4662cf50a5cb02ae65b999a07e23bd8e)
+        ;
+
+        
+    
+    
+            var marker_2b1bcf1deffc6b24a3a1d15392e4e373 = L.marker(
+                [24.377167301234635, 111.56477480393227],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_8f36a2be51bdcaae1a02a77099dc9978 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2b1bcf1deffc6b24a3a1d15392e4e373.setIcon(icon_8f36a2be51bdcaae1a02a77099dc9978);
+        
+    
+        var popup_3fa3a23a1af44315e669e4d7c6830525 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcf54ee3bc931edcab327141c3efd775 = $(`<div id="html_dcf54ee3bc931edcab327141c3efd775" style="width: 100.0%; height: 100.0%;"><b>西溪森林温泉度假村</b><br>地址：广西壮族自治区贺州市八步区南乡镇西溪村<br>特色：尽情享受原汤温泉的呵护<br>价格：¥100起</div>`)[0];
+            popup_3fa3a23a1af44315e669e4d7c6830525.setContent(html_dcf54ee3bc931edcab327141c3efd775);
+        
+
+        marker_2b1bcf1deffc6b24a3a1d15392e4e373.bindPopup(popup_3fa3a23a1af44315e669e4d7c6830525)
+        ;
+
+        
+    
+    
+            var marker_f2f0b97f0757b1095d3f307cb3825ca6 = L.marker(
+                [22.794481455805254, 108.37074241064444],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_95478fc85a1fe802a2df7e490133f594 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f2f0b97f0757b1095d3f307cb3825ca6.setIcon(icon_95478fc85a1fe802a2df7e490133f594);
+        
+    
+        var popup_f5f59f9a253d4b283bae6029e1602aa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_445fcf4456b0b213ab198705f2bbc5cd = $(`<div id="html_445fcf4456b0b213ab198705f2bbc5cd" style="width: 100.0%; height: 100.0%;"><b>南宁极地海洋世界</b><br>地址：广西壮族自治区南宁市江南区沙井大道与亭洪路交叉口东200米路北<br>特色：体验梦幻极地，邂逅海洋世界<br>价格：¥70起</div>`)[0];
+            popup_f5f59f9a253d4b283bae6029e1602aa6.setContent(html_445fcf4456b0b213ab198705f2bbc5cd);
+        
+
+        marker_f2f0b97f0757b1095d3f307cb3825ca6.bindPopup(popup_f5f59f9a253d4b283bae6029e1602aa6)
+        ;
+
+        
+    
+    
+            var marker_5b06046b870fe826c5fecfd44c0c0e99 = L.marker(
+                [24.321576734639336, 109.47567273774776],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_349ed2e6a5d5f3148ba55d002d70caca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5b06046b870fe826c5fecfd44c0c0e99.setIcon(icon_349ed2e6a5d5f3148ba55d002d70caca);
+        
+    
+        var popup_41caa334b3dd572cc3ef16eacd640651 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4aef351cd659d1f4b30c1cdd5d272a4e = $(`<div id="html_4aef351cd659d1f4b30c1cdd5d272a4e" style="width: 100.0%; height: 100.0%;"><b>程阳八寨景区</b><br>地址：广西壮族自治区柳州市三江侗族自治县631县道程阳景区<br>特色：目前保存好、规模大的风雨桥之一<br>价格：¥50起</div>`)[0];
+            popup_41caa334b3dd572cc3ef16eacd640651.setContent(html_4aef351cd659d1f4b30c1cdd5d272a4e);
+        
+
+        marker_5b06046b870fe826c5fecfd44c0c0e99.bindPopup(popup_41caa334b3dd572cc3ef16eacd640651)
+        ;
+
+        
+    
+    
+            var marker_5369e0b97b68e1cafcfcc5a74cb95464 = L.marker(
+                [21.455018261527805, 109.16941466342166],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_7e40502fa97f85c262e596c4e98a76bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5369e0b97b68e1cafcfcc5a74cb95464.setIcon(icon_7e40502fa97f85c262e596c4e98a76bf);
+        
+    
+        var popup_f4debf3a11e64c95e7dde5d9253288b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac17f00b87fb21a5c1445bf17c002ddd = $(`<div id="html_ac17f00b87fb21a5c1445bf17c002ddd" style="width: 100.0%; height: 100.0%;"><b>涠洲岛火山国家地质公园</b><br>地址：广西省北海市涠洲岛<br>特色：涠洲岛火山岛，教育科普基地<br>价格：¥30起</div>`)[0];
+            popup_f4debf3a11e64c95e7dde5d9253288b3.setContent(html_ac17f00b87fb21a5c1445bf17c002ddd);
+        
+
+        marker_5369e0b97b68e1cafcfcc5a74cb95464.bindPopup(popup_f4debf3a11e64c95e7dde5d9253288b3)
+        ;
+
+        
+    
+    
+            var marker_9f01254e99f0a646e0c1f9aee5531386 = L.marker(
+                [21.527028589429904, 109.14847627024669],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_eeb08b9405c7ac216a20a5aac4ec796a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9f01254e99f0a646e0c1f9aee5531386.setIcon(icon_eeb08b9405c7ac216a20a5aac4ec796a);
+        
+    
+        var popup_2f177dccbe39789db3c5480b40d5e9c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2d40442c73e6ccee1bf0f19100c7119 = $(`<div id="html_c2d40442c73e6ccee1bf0f19100c7119" style="width: 100.0%; height: 100.0%;"><b>北海海底世界</b><br>地址：广西壮族自治区北海市海城区茶亭路27号海滨公园内<br>特色：赏海洋生物，看精彩表演<br>价格：¥0起</div>`)[0];
+            popup_2f177dccbe39789db3c5480b40d5e9c1.setContent(html_c2d40442c73e6ccee1bf0f19100c7119);
+        
+
+        marker_9f01254e99f0a646e0c1f9aee5531386.bindPopup(popup_2f177dccbe39789db3c5480b40d5e9c1)
+        ;
+
+        
+    
+    
+            var marker_978f246412589a86e86a6dca916d8f62 = L.marker(
+                [25.22582352956968, 110.18626516759387],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_89d9e99ea46607c9dcee09baa068e683 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_978f246412589a86e86a6dca916d8f62.setIcon(icon_89d9e99ea46607c9dcee09baa068e683);
+        
+    
+        var popup_1e3e9f6b11d122dcb00e1b96ab63f8d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b48f23cab228ec744d75093f1c817a2 = $(`<div id="html_9b48f23cab228ec744d75093f1c817a2" style="width: 100.0%; height: 100.0%;"><b>芦笛岩</b><br>地址：广西壮族自治区桂林市秀峰区芦笛路1号<br>特色：大自然的艺术之宫<br>价格：¥45起</div>`)[0];
+            popup_1e3e9f6b11d122dcb00e1b96ab63f8d2.setContent(html_9b48f23cab228ec744d75093f1c817a2);
+        
+
+        marker_978f246412589a86e86a6dca916d8f62.bindPopup(popup_1e3e9f6b11d122dcb00e1b96ab63f8d2)
+        ;
+
+        
+    
+    
+            var marker_7792e1e1c084bad5030c3609e572ef07 = L.marker(
+                [22.770735887780024, 108.35563397236557],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_6f3cc3dbb79d0f9fc84858e4dfb7a784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7792e1e1c084bad5030c3609e572ef07.setIcon(icon_6f3cc3dbb79d0f9fc84858e4dfb7a784);
+        
+    
+        var popup_eaba67d84e160e2c05c7a480e50c1a30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b03809562df9f0aa1c30c0e77a39b5ee = $(`<div id="html_b03809562df9f0aa1c30c0e77a39b5ee" style="width: 100.0%; height: 100.0%;"><b>广西药用植物园</b><br>地址：广西省南宁市西乡塘长岗路189号<br>特色：被誉为立体的本草纲目<br>价格：¥15起</div>`)[0];
+            popup_eaba67d84e160e2c05c7a480e50c1a30.setContent(html_b03809562df9f0aa1c30c0e77a39b5ee);
+        
+
+        marker_7792e1e1c084bad5030c3609e572ef07.bindPopup(popup_eaba67d84e160e2c05c7a480e50c1a30)
+        ;
+
+        
+    
+    
+            var marker_41db1fe0d1e77adca8aa083c25c869ee = L.marker(
+                [25.216565976726542, 110.17325667483699],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_85f9f6f396507531d25ff1dcc569ac24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_41db1fe0d1e77adca8aa083c25c869ee.setIcon(icon_85f9f6f396507531d25ff1dcc569ac24);
+        
+    
+        var popup_f1f987c9edd6f804d121ebda332f3c85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_056e6994685c5129aaec618f3c35fb74 = $(`<div id="html_056e6994685c5129aaec618f3c35fb74" style="width: 100.0%; height: 100.0%;"><b>独秀峰王城（靖江王府）</b><br>地址：广西壮族自治区桂林市秀峰区王城路1号<br>特色：桂林山水甲天下，阅尽王城知桂林<br>价格：¥50起</div>`)[0];
+            popup_f1f987c9edd6f804d121ebda332f3c85.setContent(html_056e6994685c5129aaec618f3c35fb74);
+        
+
+        marker_41db1fe0d1e77adca8aa083c25c869ee.bindPopup(popup_f1f987c9edd6f804d121ebda332f3c85)
+        ;
+
+        
+    
+    
+            var marker_cd1ae7ea66924d6703e7cc074b67ec69 = L.marker(
+                [24.70519826974298, 108.04067260360351],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_5e2a7db7913da2c3c1a2501071efce87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_cd1ae7ea66924d6703e7cc074b67ec69.setIcon(icon_5e2a7db7913da2c3c1a2501071efce87);
+        
+    
+        var popup_32def9afa218b465ea0c0708ac1a7060 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce99d4b2f5287d4cd3d81825919bc6bd = $(`<div id="html_ce99d4b2f5287d4cd3d81825919bc6bd" style="width: 100.0%; height: 100.0%;"><b>刘三姐故里景区</b><br>地址：广西壮族自治区河池市宜州市<br>特色：独特的刘三姐风情文化<br>价格：¥19.9起</div>`)[0];
+            popup_32def9afa218b465ea0c0708ac1a7060.setContent(html_ce99d4b2f5287d4cd3d81825919bc6bd);
+        
+
+        marker_cd1ae7ea66924d6703e7cc074b67ec69.bindPopup(popup_32def9afa218b465ea0c0708ac1a7060)
+        ;
+
+        
+    
+    
+            var marker_84d014dceb3cf3e26029029f11d9b7a3 = L.marker(
+                [25.194454362427614, 110.194330009336],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_bc81cdc5e78ea352a72e2758471e1092 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_84d014dceb3cf3e26029029f11d9b7a3.setIcon(icon_bc81cdc5e78ea352a72e2758471e1092);
+        
+    
+        var popup_b9dadb0ee54c09225f6eaa3d1ccf49c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a95db28feaebd3bfd4f804668063b69e = $(`<div id="html_a95db28feaebd3bfd4f804668063b69e" style="width: 100.0%; height: 100.0%;"><b>阳朔世外桃源</b><br>地址：广西壮族自治区桂林市阳朔县321国道白沙镇<br>特色：领略山光水色、民俗风情<br>价格：¥30起</div>`)[0];
+            popup_b9dadb0ee54c09225f6eaa3d1ccf49c7.setContent(html_a95db28feaebd3bfd4f804668063b69e);
+        
+
+        marker_84d014dceb3cf3e26029029f11d9b7a3.bindPopup(popup_b9dadb0ee54c09225f6eaa3d1ccf49c7)
+        ;
+
+        
+    
+    
+            var marker_43f0b06f16e965996a85fee298da4cf7 = L.marker(
+                [25.201607234292286, 110.18259304607817],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_a8f2a862a5401bd98410736091b01c7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_43f0b06f16e965996a85fee298da4cf7.setIcon(icon_a8f2a862a5401bd98410736091b01c7c);
+        
+    
+        var popup_5a911ca9c02f21947511250ae20d8eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76ee4747e7599c1f0c6366d7c589adb7 = $(`<div id="html_76ee4747e7599c1f0c6366d7c589adb7" style="width: 100.0%; height: 100.0%;"><b>龙脊梯田</b><br>地址：广西壮族自治区桂林市龙胜各族自治县和平乡平安村龙脊山<br>特色：线条如行云流水层叠状美<br>价格：¥40起</div>`)[0];
+            popup_5a911ca9c02f21947511250ae20d8eb7.setContent(html_76ee4747e7599c1f0c6366d7c589adb7);
+        
+
+        marker_43f0b06f16e965996a85fee298da4cf7.bindPopup(popup_5a911ca9c02f21947511250ae20d8eb7)
+        ;
+
+        
+    
+    
+            var marker_6ecc5d276541bc10df6464ddf2970f01 = L.marker(
+                [22.42972441755823, 107.38285862625453],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_418baefb11778cc7397f05554b31438e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6ecc5d276541bc10df6464ddf2970f01.setIcon(icon_418baefb11778cc7397f05554b31438e);
+        
+    
+        var popup_87efb4db2776c87f4cf56695692f04d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c42ad843709ad6f3d308b606797a6ec9 = $(`<div id="html_c42ad843709ad6f3d308b606797a6ec9" style="width: 100.0%; height: 100.0%;"><b>峒那屿湾景区</b><br>地址：广西壮族自治州崇左市大新县雷平镇安平村<br>特色：山水与长天共一色<br>价格：¥82起</div>`)[0];
+            popup_87efb4db2776c87f4cf56695692f04d7.setContent(html_c42ad843709ad6f3d308b606797a6ec9);
+        
+
+        marker_6ecc5d276541bc10df6464ddf2970f01.bindPopup(popup_87efb4db2776c87f4cf56695692f04d7)
+        ;
+
+        
+    
+    
+            var marker_f3ab8c0cd8134c0ea64471e12907a853 = L.marker(
+                [24.71796286375517, 108.10451921642584],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_049b1e022b58286b7621e82d08833e19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f3ab8c0cd8134c0ea64471e12907a853.setIcon(icon_049b1e022b58286b7621e82d08833e19);
+        
+    
+        var popup_6b66bc7f4d2f961a7163a26c2c299a9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9420b6362c4788fcb2fb758ee3c59bbf = $(`<div id="html_9420b6362c4788fcb2fb758ee3c59bbf" style="width: 100.0%; height: 100.0%;"><b>洞天酒海景区</b><br>地址：广西省河池市南丹县民行北路南丹洞天酒海景区<br>特色：喀斯特地貌景观及白酒文化有机融合<br>价格：¥40起</div>`)[0];
+            popup_6b66bc7f4d2f961a7163a26c2c299a9d.setContent(html_9420b6362c4788fcb2fb758ee3c59bbf);
+        
+
+        marker_f3ab8c0cd8134c0ea64471e12907a853.bindPopup(popup_6b66bc7f4d2f961a7163a26c2c299a9d)
+        ;
+
+        
+    
+    
+            var marker_d519b938a0acf4309d1bcaeb261fc3bb = L.marker(
+                [25.271114834891335, 110.15637569785744],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_c1a9050dca1da8a94282e42f9581264b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d519b938a0acf4309d1bcaeb261fc3bb.setIcon(icon_c1a9050dca1da8a94282e42f9581264b);
+        
+    
+        var popup_ffec5506e9af313689dde7bf9d824b91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c946347a8eb474c06dec49bab0032e9e = $(`<div id="html_c946347a8eb474c06dec49bab0032e9e" style="width: 100.0%; height: 100.0%;"><b>漓江风景名胜区</b><br>地址：广西壮族自治区‌桂林市漓江流域的西南面区域<br>特色：甲天下的山水风光<br>价格：¥108起</div>`)[0];
+            popup_ffec5506e9af313689dde7bf9d824b91.setContent(html_c946347a8eb474c06dec49bab0032e9e);
+        
+
+        marker_d519b938a0acf4309d1bcaeb261fc3bb.bindPopup(popup_ffec5506e9af313689dde7bf9d824b91)
+        ;
+
+        
+    
+    
+            var marker_9286f54767f86d0fdac7204d748bb159 = L.marker(
+                [22.842603110086994, 108.41494600546838],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_21491fc0002b2d539817b4e40370bc03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9286f54767f86d0fdac7204d748bb159.setIcon(icon_21491fc0002b2d539817b4e40370bc03);
+        
+    
+        var popup_ab9b8419b2b4e3b6d72466e292613418 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6edb4a499bfae675abb4fe5cdb5bfde1 = $(`<div id="html_6edb4a499bfae675abb4fe5cdb5bfde1" style="width: 100.0%; height: 100.0%;"><b>地王云顶观光</b><br>地址：广西壮族自治区南宁市青秀区金湖路59号地王大厦59楼<br>特色：俯瞰邕城大地，美景尽收眼底<br>价格：¥40起</div>`)[0];
+            popup_ab9b8419b2b4e3b6d72466e292613418.setContent(html_6edb4a499bfae675abb4fe5cdb5bfde1);
+        
+
+        marker_9286f54767f86d0fdac7204d748bb159.bindPopup(popup_ab9b8419b2b4e3b6d72466e292613418)
+        ;
+
+        
+    
+    
+            var marker_1c0b6a9f25c9d6378029ca3c4b93c6e9 = L.marker(
+                [24.349522188585006, 109.38830694462871],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_9f216afe71ea07ef41b4375135e4911f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1c0b6a9f25c9d6378029ca3c4b93c6e9.setIcon(icon_9f216afe71ea07ef41b4375135e4911f);
+        
+    
+        var popup_ed4e07be5b745d95968aa98e26d8ce62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78553cc7a74a026791757e1f3dd40651 = $(`<div id="html_78553cc7a74a026791757e1f3dd40651" style="width: 100.0%; height: 100.0%;"><b>柳州博物馆</b><br>地址：广西壮族自治区柳州市柳北区解放北路37号<br>特色：丰富馆藏展示民族文化历史<br>价格：¥0起</div>`)[0];
+            popup_ed4e07be5b745d95968aa98e26d8ce62.setContent(html_78553cc7a74a026791757e1f3dd40651);
+        
+
+        marker_1c0b6a9f25c9d6378029ca3c4b93c6e9.bindPopup(popup_ed4e07be5b745d95968aa98e26d8ce62)
+        ;
+
+        
+    
+    
+            var marker_84a79e6d053940e8c97222368fbf1885 = L.marker(
+                [22.445727544429495, 107.3779364099148],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_98b718cc68d7a25237d1519cabbde59f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_84a79e6d053940e8c97222368fbf1885.setIcon(icon_98b718cc68d7a25237d1519cabbde59f);
+        
+    
+        var popup_eb233cc97bb812bb9b0d73182b45e299 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8b74c90f1454590f17d7fba1e22d191 = $(`<div id="html_c8b74c90f1454590f17d7fba1e22d191" style="width: 100.0%; height: 100.0%;"><b>太平古城</b><br>地址：广西壮族自治区崇左市江州区太平路2号<br>特色：古城遗址上开发建设的文化旅游项目<br>价格：¥0起</div>`)[0];
+            popup_eb233cc97bb812bb9b0d73182b45e299.setContent(html_c8b74c90f1454590f17d7fba1e22d191);
+        
+
+        marker_84a79e6d053940e8c97222368fbf1885.bindPopup(popup_eb233cc97bb812bb9b0d73182b45e299)
+        ;
+
+        
+    
+    
+            var marker_2ec34ce88c2cd8a2910d4bb40983bbd6 = L.marker(
+                [22.86587708033951, 108.37879395726279],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_2a7680d6b58e91071950d3479cbd1e00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2ec34ce88c2cd8a2910d4bb40983bbd6.setIcon(icon_2a7680d6b58e91071950d3479cbd1e00);
+        
+    
+        var popup_63be3e4dbd540ed69f670110dfe32033 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6954dadaabe4840273ee01aa3ef3dc0 = $(`<div id="html_f6954dadaabe4840273ee01aa3ef3dc0" style="width: 100.0%; height: 100.0%;"><b>良凤江国家森林公园</b><br>地址：广西南宁市江南区友谊路78号<br>特色：林木繁茂，亭阁错落，芳草萋萋<br>价格：¥10起</div>`)[0];
+            popup_63be3e4dbd540ed69f670110dfe32033.setContent(html_f6954dadaabe4840273ee01aa3ef3dc0);
+        
+
+        marker_2ec34ce88c2cd8a2910d4bb40983bbd6.bindPopup(popup_63be3e4dbd540ed69f670110dfe32033)
+        ;
+
+        
+    
+    
+            var marker_858f55bd34ed4a0efd4465d018cf5874 = L.marker(
+                [25.20377094637584, 110.2050276315607],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_37ccbdbc9817ddec4028913decfa51ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_858f55bd34ed4a0efd4465d018cf5874.setIcon(icon_37ccbdbc9817ddec4028913decfa51ea);
+        
+    
+        var popup_0c52b0f2037114fe0ecb225c8d135b69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38b3ef18e9e2d81d06dcf3ddcc068b06 = $(`<div id="html_38b3ef18e9e2d81d06dcf3ddcc068b06" style="width: 100.0%; height: 100.0%;"><b>桂林乐满地主题乐园</b><br>地址：广西壮族自治区桂林市兴安县志玲路乐满地主题乐园<br>特色：游玩项目丰富，独揽桂林山水盛景<br>价格：¥0.02起</div>`)[0];
+            popup_0c52b0f2037114fe0ecb225c8d135b69.setContent(html_38b3ef18e9e2d81d06dcf3ddcc068b06);
+        
+
+        marker_858f55bd34ed4a0efd4465d018cf5874.bindPopup(popup_0c52b0f2037114fe0ecb225c8d135b69)
+        ;
+
+        
+    
+    
+            var marker_38a95a6caa64fe304aca283d5d2392ed = L.marker(
+                [25.25983923883478, 110.22686696273716],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_b39f9a8341b977979448fb4652ad07e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_38a95a6caa64fe304aca283d5d2392ed.setIcon(icon_b39f9a8341b977979448fb4652ad07e3);
+        
+    
+        var popup_754d97a4f2b361242eb8a064f922c782 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fea5136ae87925874af47a7fac0d3691 = $(`<div id="html_fea5136ae87925874af47a7fac0d3691" style="width: 100.0%; height: 100.0%;"><b>伏波山</b><br>地址：广西桂林市叠彩区滨江路27号（风北路口）<br>特色：可看到桂林清秀如画的水光山色<br>价格：¥11.5起</div>`)[0];
+            popup_754d97a4f2b361242eb8a064f922c782.setContent(html_fea5136ae87925874af47a7fac0d3691);
+        
+
+        marker_38a95a6caa64fe304aca283d5d2392ed.bindPopup(popup_754d97a4f2b361242eb8a064f922c782)
+        ;
+
+        
+    
+    
+            var marker_827deb950c7134f1a345b98e7d51d4e8 = L.marker(
+                [25.22560250688242, 110.1736520786146],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_4154ea04d2fc1ed900ab2207bd95909c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_827deb950c7134f1a345b98e7d51d4e8.setIcon(icon_4154ea04d2fc1ed900ab2207bd95909c);
+        
+    
+        var popup_8c7b9fb3017a0ad43acc26565b446a48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1b2eb54dc60aa8d0e32d578d8ff5b0d = $(`<div id="html_c1b2eb54dc60aa8d0e32d578d8ff5b0d" style="width: 100.0%; height: 100.0%;"><b>叠彩山</b><br>地址：广西桂林市叠彩区滨江路27号<br>特色：历史文物、自然风光相互交融圣地<br>价格：¥12.5起</div>`)[0];
+            popup_8c7b9fb3017a0ad43acc26565b446a48.setContent(html_c1b2eb54dc60aa8d0e32d578d8ff5b0d);
+        
+
+        marker_827deb950c7134f1a345b98e7d51d4e8.bindPopup(popup_8c7b9fb3017a0ad43acc26565b446a48)
+        ;
+
+        
+    
+    
+            var marker_86b06965bb64bcdcf9f9ed7d5d745745 = L.marker(
+                [25.208011666473197, 110.13360728789205],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_1c890d6faabf118e0b34a3eb0c65a36c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_86b06965bb64bcdcf9f9ed7d5d745745.setIcon(icon_1c890d6faabf118e0b34a3eb0c65a36c);
+        
+    
+        var popup_51dcb8ac3fc55367d4bc6b6bd3ae0d1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55d309f2659afb49a3f9bdd6360a31cf = $(`<div id="html_55d309f2659afb49a3f9bdd6360a31cf" style="width: 100.0%; height: 100.0%;"><b>阳朔漓江景区</b><br>地址：广西壮族自治区桂林市阳朔县兴坪镇兴坪码头<br>特色：欣赏“黄布倒影”美景<br>价格：¥85起</div>`)[0];
+            popup_51dcb8ac3fc55367d4bc6b6bd3ae0d1b.setContent(html_55d309f2659afb49a3f9bdd6360a31cf);
+        
+
+        marker_86b06965bb64bcdcf9f9ed7d5d745745.bindPopup(popup_51dcb8ac3fc55367d4bc6b6bd3ae0d1b)
+        ;
+
+        
+    
+    
+            var marker_fba2f78698d99f3575680eaa0f8c132e = L.marker(
+                [22.454441507576682, 107.36473262721883],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_a48edf788a130ea26c4ba48ca28d1547 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_fba2f78698d99f3575680eaa0f8c132e.setIcon(icon_a48edf788a130ea26c4ba48ca28d1547);
+        
+    
+        var popup_12d62970e1fac796177b90919a74bbba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0550ec6ac2e172538cf2893a67eeb32 = $(`<div id="html_e0550ec6ac2e172538cf2893a67eeb32" style="width: 100.0%; height: 100.0%;"><b>发现·弄岗景区</b><br>地址：广西壮族自治区崇左龙州县中北部逐卜、武德、上金乡之间的石山地区<br>特色：广西生态的醉后一片净土<br>价格：¥18起</div>`)[0];
+            popup_12d62970e1fac796177b90919a74bbba.setContent(html_e0550ec6ac2e172538cf2893a67eeb32);
+        
+
+        marker_fba2f78698d99f3575680eaa0f8c132e.bindPopup(popup_12d62970e1fac796177b90919a74bbba)
+        ;
+
+        
+    
+    
+            var marker_56933ba114de93269d52546a7b1e94bd = L.marker(
+                [21.512995316691235, 109.10910153166084],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_d3547a1648b16763e644755aeac574c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_56933ba114de93269d52546a7b1e94bd.setIcon(icon_d3547a1648b16763e644755aeac574c4);
+        
+    
+        var popup_988c3a39ea08c78bbca2d9f519980e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16cd09ab6aa601bcec89d1013b0bf2fe = $(`<div id="html_16cd09ab6aa601bcec89d1013b0bf2fe" style="width: 100.0%; height: 100.0%;"><b>北海银滩旅游度假区</b><br>地址：广西北海市银海区北海银滩景区东门12号功能岛<br>特色：滩缓水清，日落时分更是美丽<br>价格：¥0起</div>`)[0];
+            popup_988c3a39ea08c78bbca2d9f519980e7f.setContent(html_16cd09ab6aa601bcec89d1013b0bf2fe);
+        
+
+        marker_56933ba114de93269d52546a7b1e94bd.bindPopup(popup_988c3a39ea08c78bbca2d9f519980e7f)
+        ;
+
+        
+    
+    
+            var marker_1d67de0cbc5aef457a71b14207ca688a = L.marker(
+                [21.514411863172715, 109.15015131578546],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_d8b65f29554861ffa655be2a607d200d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1d67de0cbc5aef457a71b14207ca688a.setIcon(icon_d8b65f29554861ffa655be2a607d200d);
+        
+    
+        var popup_a7673b97a78b386c800c91a19939d487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5ea4935922f610c6f61d59c7c47038f = $(`<div id="html_e5ea4935922f610c6f61d59c7c47038f" style="width: 100.0%; height: 100.0%;"><b>鳄鱼山景区</b><br>地址：广西壮族自治区北海市海城区北部湾海域涠洲岛火山国家地质公园内<br>特色：欣赏火山遗迹眺望南湾全景<br>价格：¥0起</div>`)[0];
+            popup_a7673b97a78b386c800c91a19939d487.setContent(html_e5ea4935922f610c6f61d59c7c47038f);
+        
+
+        marker_1d67de0cbc5aef457a71b14207ca688a.bindPopup(popup_a7673b97a78b386c800c91a19939d487)
+        ;
+
+        
+    
+    
+            var marker_68679b9916da0e361c36bc2878c78eb8 = L.marker(
+                [25.231795882715698, 110.20222518926349],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_17e525ee1375f4aeff2d0dc95241d8e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_68679b9916da0e361c36bc2878c78eb8.setIcon(icon_17e525ee1375f4aeff2d0dc95241d8e0);
+        
+    
+        var popup_b38234920bd828fa2b5c028c115f0b96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84e4ad13756ba48a49c8e4b8ae6ebe34 = $(`<div id="html_84e4ad13756ba48a49c8e4b8ae6ebe34" style="width: 100.0%; height: 100.0%;"><b>大碧头国际旅游度假区</b><br>地址：广西壮族自治区桂林市全州县庙头镇李家村委<br>特色：历史文化气息浓郁，自然风光秀丽<br>价格：¥0起</div>`)[0];
+            popup_b38234920bd828fa2b5c028c115f0b96.setContent(html_84e4ad13756ba48a49c8e4b8ae6ebe34);
+        
+
+        marker_68679b9916da0e361c36bc2878c78eb8.bindPopup(popup_b38234920bd828fa2b5c028c115f0b96)
+        ;
+
+        
+    
+    
+            var marker_76ea2c3075528cd94325c3f050e451b5 = L.marker(
+                [25.262172443988018, 110.15693956066504],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_5e654c2a3c29be814bf74a4224fe4742 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_76ea2c3075528cd94325c3f050e451b5.setIcon(icon_5e654c2a3c29be814bf74a4224fe4742);
+        
+    
+        var popup_411ea8a341b277b16562c9270be908c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_245277e11ccbf52ed840dc49447ffb15 = $(`<div id="html_245277e11ccbf52ed840dc49447ffb15" style="width: 100.0%; height: 100.0%;"><b>桂林七星景区</b><br>地址：广西壮族自治区桂林市七星区漓江东岸七星路1号<br>特色：桂林山水文化的缩影<br>价格：¥27.5起</div>`)[0];
+            popup_411ea8a341b277b16562c9270be908c1.setContent(html_245277e11ccbf52ed840dc49447ffb15);
+        
+
+        marker_76ea2c3075528cd94325c3f050e451b5.bindPopup(popup_411ea8a341b277b16562c9270be908c1)
+        ;
+
+        
+    
+    
+            var marker_689ee8f3ce7854fa5b67000f97d944fc = L.marker(
+                [24.64489219434442, 108.12269075946686],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_790303e18efa31013929bba2d589ca38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_689ee8f3ce7854fa5b67000f97d944fc.setIcon(icon_790303e18efa31013929bba2d589ca38);
+        
+    
+        var popup_06d1721d3f6558c37823d6e044bf83c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45f81f01ba9f459de640348713d6c398 = $(`<div id="html_45f81f01ba9f459de640348713d6c398" style="width: 100.0%; height: 100.0%;"><b>丹炉山景区</b><br>地址：广西壮族自治区河池市南丹县吾隘镇昌里村丹炉屯<br>特色：古老神秘的炼丹古遗址<br>价格：¥99起</div>`)[0];
+            popup_06d1721d3f6558c37823d6e044bf83c5.setContent(html_45f81f01ba9f459de640348713d6c398);
+        
+
+        marker_689ee8f3ce7854fa5b67000f97d944fc.bindPopup(popup_06d1721d3f6558c37823d6e044bf83c5)
+        ;
+
+        
+    
+    
+            var marker_5990cab2705efa8f17b339e72f3cafe8 = L.marker(
+                [24.66777091234871, 108.08664700850338],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_7a991bdedc5757cc5c373ac145ad5a5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5990cab2705efa8f17b339e72f3cafe8.setIcon(icon_7a991bdedc5757cc5c373ac145ad5a5e);
+        
+    
+        var popup_5d9180cf27bccc5dcd7656ac88c87dd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18e46bd0db9cc6086880c376ae802a97 = $(`<div id="html_18e46bd0db9cc6086880c376ae802a97" style="width: 100.0%; height: 100.0%;"><b>瑶望天下</b><br>地址：广西河池市南丹县里湖乡里湖社区王尚屯<br>特色：以非遗和美食文化为主题的活态博物馆<br>价格：¥99起</div>`)[0];
+            popup_5d9180cf27bccc5dcd7656ac88c87dd1.setContent(html_18e46bd0db9cc6086880c376ae802a97);
+        
+
+        marker_5990cab2705efa8f17b339e72f3cafe8.bindPopup(popup_5d9180cf27bccc5dcd7656ac88c87dd1)
+        ;
+
+        
+    
+    
+            var marker_794fe923ed93378e9cbc70b0a6868027 = L.marker(
+                [21.43440593685575, 109.09396544530537],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_d5bc3fe929b2d782c9e80fac2cf0da69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_794fe923ed93378e9cbc70b0a6868027.setIcon(icon_d5bc3fe929b2d782c9e80fac2cf0da69);
+        
+    
+        var popup_90598b41cafb9b08d9fdfafc2d39a7b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c732095073aeb8375ad3f0277ba3b88 = $(`<div id="html_6c732095073aeb8375ad3f0277ba3b88" style="width: 100.0%; height: 100.0%;"><b>北海海滩景区</b><br>地址：广西壮族自治区北海市银海区海景大道<br>特色：先有南澫，后有北海<br>价格：¥0起</div>`)[0];
+            popup_90598b41cafb9b08d9fdfafc2d39a7b8.setContent(html_6c732095073aeb8375ad3f0277ba3b88);
+        
+
+        marker_794fe923ed93378e9cbc70b0a6868027.bindPopup(popup_90598b41cafb9b08d9fdfafc2d39a7b8)
+        ;
+
+        
+    
+    
+            var marker_88ebebde1da808c76c20b072accfa171 = L.marker(
+                [22.821961652032652, 108.33840285787875],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_3540aa85b8d19fa44d1b9ae50d3a98e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_88ebebde1da808c76c20b072accfa171.setIcon(icon_3540aa85b8d19fa44d1b9ae50d3a98e7);
+        
+    
+        var popup_af82deab2cd8264089834a3e8f442acb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b31b327f582c436831517262f9c3573 = $(`<div id="html_6b31b327f582c436831517262f9c3573" style="width: 100.0%; height: 100.0%;"><b>南铁记忆</b><br>地址：广西壮族自治区南宁市西乡塘区农园路与明秀西路交叉口北150米<br>特色：怀旧主题，红色路线<br>价格：¥0起</div>`)[0];
+            popup_af82deab2cd8264089834a3e8f442acb.setContent(html_6b31b327f582c436831517262f9c3573);
+        
+
+        marker_88ebebde1da808c76c20b072accfa171.bindPopup(popup_af82deab2cd8264089834a3e8f442acb)
+        ;
+
+        
+    
+    
+            var marker_44bbdb98d970a86347e04b7747425568 = L.marker(
+                [25.195645793657352, 110.22612663212075],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_7ec1e8f8d42ddb706f502d4b489f3be0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_44bbdb98d970a86347e04b7747425568.setIcon(icon_7ec1e8f8d42ddb706f502d4b489f3be0);
+        
+    
+        var popup_5558fe01386e73dd5c61ef0bd3e42395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d03b33c91311f47d08a00ba43a78497 = $(`<div id="html_9d03b33c91311f47d08a00ba43a78497" style="width: 100.0%; height: 100.0%;"><b>三千漓中国山水人文度假区</b><br>地址：广西壮族自治区桂林市阳朔县兴坪镇凤凰路1号<br>特色：满足你观光+度假的全域旅游需求<br>价格：¥29起</div>`)[0];
+            popup_5558fe01386e73dd5c61ef0bd3e42395.setContent(html_9d03b33c91311f47d08a00ba43a78497);
+        
+
+        marker_44bbdb98d970a86347e04b7747425568.bindPopup(popup_5558fe01386e73dd5c61ef0bd3e42395)
+        ;
+
+        
+    
+    
+            var marker_cfd59ba30bb5b8e2a4522e7954449acf = L.marker(
+                [25.251609949655222, 110.21519475887384],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_744bbd7db92bdd049f32b04549c0f6e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_cfd59ba30bb5b8e2a4522e7954449acf.setIcon(icon_744bbd7db92bdd049f32b04549c0f6e7);
+        
+    
+        var popup_fa1329aec63ae3e50e7ffa1ef17fb747 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caa787d830e2c353ded87ccd9b417acd = $(`<div id="html_caa787d830e2c353ded87ccd9b417acd" style="width: 100.0%; height: 100.0%;"><b>桂花公社</b><br>地址：广西壮族自治区桂林市秀峰区阳江路18号<br>特色：桂花为主题的文化博览园<br>价格：¥58起</div>`)[0];
+            popup_fa1329aec63ae3e50e7ffa1ef17fb747.setContent(html_caa787d830e2c353ded87ccd9b417acd);
+        
+
+        marker_cfd59ba30bb5b8e2a4522e7954449acf.bindPopup(popup_fa1329aec63ae3e50e7ffa1ef17fb747)
+        ;
+
+        
+    
+    
+            var marker_061a4b201465f32c1000fedf0881599a = L.marker(
+                [25.25375493952584, 110.14036151676912],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_1281851fac1ff376f6e4454ac195261c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_061a4b201465f32c1000fedf0881599a.setIcon(icon_1281851fac1ff376f6e4454ac195261c);
+        
+    
+        var popup_debacbaa3cee0e58e067bf3db7c51427 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f475bf98ce8959e38ed1586ef4e0257a = $(`<div id="html_f475bf98ce8959e38ed1586ef4e0257a" style="width: 100.0%; height: 100.0%;"><b>桂林丹霞·八角寨景区</b><br>地址：广西壮族自治区桂林市资源县东北部梅溪乡大坨村<br>特色：丹霞之魂，国之瑰宝<br>价格：¥64起</div>`)[0];
+            popup_debacbaa3cee0e58e067bf3db7c51427.setContent(html_f475bf98ce8959e38ed1586ef4e0257a);
+        
+
+        marker_061a4b201465f32c1000fedf0881599a.bindPopup(popup_debacbaa3cee0e58e067bf3db7c51427)
+        ;
+
+        
+    
+    
+            var marker_7abfb901e5616d89f49ef3496beab25f = L.marker(
+                [25.184489473908577, 110.16239615820301],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_57466787fbe49852991202ff73ea5e0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7abfb901e5616d89f49ef3496beab25f.setIcon(icon_57466787fbe49852991202ff73ea5e0f);
+        
+    
+        var popup_90c0700d5b9751fc4b0bb115166c92a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46d343c081473cbcc8304099d65e0a81 = $(`<div id="html_46d343c081473cbcc8304099d65e0a81" style="width: 100.0%; height: 100.0%;"><b>冠岩</b><br>地址：广西桂林市雁山区草坪回族自治乡桂林漓江冠岩景区<br>特色：桂林山水甲天下，山水兼奇唯冠岩<br>价格：¥30起</div>`)[0];
+            popup_90c0700d5b9751fc4b0bb115166c92a4.setContent(html_46d343c081473cbcc8304099d65e0a81);
+        
+
+        marker_7abfb901e5616d89f49ef3496beab25f.bindPopup(popup_90c0700d5b9751fc4b0bb115166c92a4)
+        ;
+
+        
+    
+    
+            var marker_d14dca5460482028bd5138e17d66a1bb = L.marker(
+                [25.252540706545766, 110.17214813663865],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_b9914c17ff489eba4b8fb049667cf13a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d14dca5460482028bd5138e17d66a1bb.setIcon(icon_b9914c17ff489eba4b8fb049667cf13a);
+        
+    
+        var popup_b94b456bef64014f561aeb2fafd5abe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96e1fc75c59306faa286bf698bcf8d1e = $(`<div id="html_96e1fc75c59306faa286bf698bcf8d1e" style="width: 100.0%; height: 100.0%;"><b>古木冲景区</b><br>地址：广西壮族自治区桂林市资源县梅溪镇大坨村<br>特色：游览丹霞地貌，体验网红户外运动<br>价格：¥84起</div>`)[0];
+            popup_b94b456bef64014f561aeb2fafd5abe7.setContent(html_96e1fc75c59306faa286bf698bcf8d1e);
+        
+
+        marker_d14dca5460482028bd5138e17d66a1bb.bindPopup(popup_b94b456bef64014f561aeb2fafd5abe7)
+        ;
+
+        
+    
+    
+            var marker_4c4776150b1b2725a58ac4789c8ed578 = L.marker(
+                [25.272323136361802, 110.21802882214136],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_1ca7337e2a10dfefe56f2f605e654baf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4c4776150b1b2725a58ac4789c8ed578.setIcon(icon_1ca7337e2a10dfefe56f2f605e654baf);
+        
+    
+        var popup_be3a1599e94a28a855ec4b001983addc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbab6b0bda41a818acea41ff378bf0e4 = $(`<div id="html_cbab6b0bda41a818acea41ff378bf0e4" style="width: 100.0%; height: 100.0%;"><b>灵渠</b><br>地址：广西省桂林市兴安县双灵路<br>特色：世界古代水利建筑明珠、古老的运河之一<br>价格：¥22起</div>`)[0];
+            popup_be3a1599e94a28a855ec4b001983addc.setContent(html_cbab6b0bda41a818acea41ff378bf0e4);
+        
+
+        marker_4c4776150b1b2725a58ac4789c8ed578.bindPopup(popup_be3a1599e94a28a855ec4b001983addc)
+        ;
+
+        
+    
+    
+            var marker_0c8846df77ea59fba78ae412de9a0db1 = L.marker(
+                [25.27630181473431, 110.1381306096204],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_fe7da121bdd631dbc2194e8a6a0019c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_0c8846df77ea59fba78ae412de9a0db1.setIcon(icon_fe7da121bdd631dbc2194e8a6a0019c1);
+        
+    
+        var popup_b90b7d3182ecff0e75cf13945751218b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eee06eb41bb613d958461d94232c5e7e = $(`<div id="html_eee06eb41bb613d958461d94232c5e7e" style="width: 100.0%; height: 100.0%;"><b>资江景区</b><br>地址：广西壮族自治区桂林市资源县中峰乡车田湾村<br>特色：有自己别具一格的雄伟险峻<br>价格：¥108起</div>`)[0];
+            popup_b90b7d3182ecff0e75cf13945751218b.setContent(html_eee06eb41bb613d958461d94232c5e7e);
+        
+
+        marker_0c8846df77ea59fba78ae412de9a0db1.bindPopup(popup_b90b7d3182ecff0e75cf13945751218b)
+        ;
+
+        
+    
+    
+            var marker_bce4210a14016ff69ee37ce4f70148ad = L.marker(
+                [25.24573642639804, 110.15667013140647],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_d7f3dacd646defa0b569f0f6e9c5945c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bce4210a14016ff69ee37ce4f70148ad.setIcon(icon_d7f3dacd646defa0b569f0f6e9c5945c);
+        
+    
+        var popup_feb38ea2f581d91542939df91773a284 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68340d4068e5e2df41d7bac33a1b6616 = $(`<div id="html_68340d4068e5e2df41d7bac33a1b6616" style="width: 100.0%; height: 100.0%;"><b>龙胜温泉</b><br>地址：广西省桂林市各族自治县江底乡龙胜温泉度假中心<br>特色：森林徒步、生态温泉浴、休闲度假<br>价格：¥50起</div>`)[0];
+            popup_feb38ea2f581d91542939df91773a284.setContent(html_68340d4068e5e2df41d7bac33a1b6616);
+        
+
+        marker_bce4210a14016ff69ee37ce4f70148ad.bindPopup(popup_feb38ea2f581d91542939df91773a284)
+        ;
+
+        
+    
+    
+            var marker_12f13102bdf4336341841dcaff197f44 = L.marker(
+                [25.24217051122314, 110.22632444882665],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_39700c522bd41c72d7dd29279c8dd6a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_12f13102bdf4336341841dcaff197f44.setIcon(icon_39700c522bd41c72d7dd29279c8dd6a9);
+        
+    
+        var popup_099356f982e2bdd57c22c14b11ef0f19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac643c13515a4158d6722759a0e2357f = $(`<div id="html_ac643c13515a4158d6722759a0e2357f" style="width: 100.0%; height: 100.0%;"><b>刘三姐大观园</b><br>地址：广西省桂林市秀峰区桃花江路1号刘三姐大观园<br>特色：展示刘三姐生活、故事的实景地<br>价格：¥40起</div>`)[0];
+            popup_099356f982e2bdd57c22c14b11ef0f19.setContent(html_ac643c13515a4158d6722759a0e2357f);
+        
+
+        marker_12f13102bdf4336341841dcaff197f44.bindPopup(popup_099356f982e2bdd57c22c14b11ef0f19)
+        ;
+
+        
+    
+    
+            var marker_bbb05fecdd96212d68174da4f9361818 = L.marker(
+                [25.229889558968157, 110.20126849784035],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_2a2badd11404d9f2af02698457f91c6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bbb05fecdd96212d68174da4f9361818.setIcon(icon_2a2badd11404d9f2af02698457f91c6a);
+        
+    
+        var popup_9a505dedaef6b59a878d30ccec06328e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2a84e25628ac63c109d0733a9384090 = $(`<div id="html_e2a84e25628ac63c109d0733a9384090" style="width: 100.0%; height: 100.0%;"><b>桂林西山景区</b><br>地址：广西壮族自治区桂林市秀峰区西山路2号<br>特色：华南人气自然景区之一<br>价格：¥27.5起</div>`)[0];
+            popup_9a505dedaef6b59a878d30ccec06328e.setContent(html_e2a84e25628ac63c109d0733a9384090);
+        
+
+        marker_bbb05fecdd96212d68174da4f9361818.bindPopup(popup_9a505dedaef6b59a878d30ccec06328e)
+        ;
+
+        
+    
+    
+            var marker_d29a2d1ad7b7e12e734726fc330cdc79 = L.marker(
+                [25.255104696003386, 110.1883051985957],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_95d1c441d153c9a0f90179e87445944e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d29a2d1ad7b7e12e734726fc330cdc79.setIcon(icon_95d1c441d153c9a0f90179e87445944e);
+        
+    
+        var popup_4e648e14b6812cfa22478cecb4d33e7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47f67ed9390edb21abaeadd476af9e09 = $(`<div id="html_47f67ed9390edb21abaeadd476af9e09" style="width: 100.0%; height: 100.0%;"><b>丰鱼岩</b><br>地址：广西省桂林市荔浦县三河东里丰鱼岩<br>特色：一洞穿九山，妙景绝天下<br>价格：¥25起</div>`)[0];
+            popup_4e648e14b6812cfa22478cecb4d33e7e.setContent(html_47f67ed9390edb21abaeadd476af9e09);
+        
+
+        marker_d29a2d1ad7b7e12e734726fc330cdc79.bindPopup(popup_4e648e14b6812cfa22478cecb4d33e7e)
+        ;
+
+        
+    
+    
+            var marker_ace99c23b3d5e03c5fd0e0fd1a04988a = L.marker(
+                [25.2087671962485, 110.15859614688259],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_9abc5b640a5d935d7792cfb656a305c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ace99c23b3d5e03c5fd0e0fd1a04988a.setIcon(icon_9abc5b640a5d935d7792cfb656a305c8);
+        
+    
+        var popup_a22302dd720d07c5c54a06860b9df9c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c7d229a0b59f4256a53429417ec5cb5 = $(`<div id="html_9c7d229a0b59f4256a53429417ec5cb5" style="width: 100.0%; height: 100.0%;"><b>天籁·蝴蝶泉</b><br>地址：广西省桂林市阳朔县321国道十里画廊内<br>特色：集奇山、秀水、田园、农舍为一体<br>价格：¥0起</div>`)[0];
+            popup_a22302dd720d07c5c54a06860b9df9c8.setContent(html_9c7d229a0b59f4256a53429417ec5cb5);
+        
+
+        marker_ace99c23b3d5e03c5fd0e0fd1a04988a.bindPopup(popup_a22302dd720d07c5c54a06860b9df9c8)
+        ;
+
+        
+    
+    
+            var marker_f87a7fa5f203e813c2e7342a824667ca = L.marker(
+                [25.2452741027928, 110.13678854652943],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_691220fedd960d2e4de4c61964227dc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f87a7fa5f203e813c2e7342a824667ca.setIcon(icon_691220fedd960d2e4de4c61964227dc1);
+        
+    
+        var popup_f963bd1093888fe99d35c63ed76c6005 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2b5681df06f025d8731f613e538d4a5 = $(`<div id="html_a2b5681df06f025d8731f613e538d4a5" style="width: 100.0%; height: 100.0%;"><b>逍遥湖景区</b><br>地址：广西桂林市灵川县大圩镇上茯荔村<br>特色：自然风光与人文历史于一体<br>价格：¥25起</div>`)[0];
+            popup_f963bd1093888fe99d35c63ed76c6005.setContent(html_a2b5681df06f025d8731f613e538d4a5);
+        
+
+        marker_f87a7fa5f203e813c2e7342a824667ca.bindPopup(popup_f963bd1093888fe99d35c63ed76c6005)
+        ;
+
+        
+    
+    
+            var marker_bb5793507b36d0ef320b4fbfb4a19314 = L.marker(
+                [25.21488769231753, 110.14525418460256],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_0a902f6ff7f1770d098137fa66966969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bb5793507b36d0ef320b4fbfb4a19314.setIcon(icon_0a902f6ff7f1770d098137fa66966969);
+        
+    
+        var popup_f398d6d52b7e442881e1d803f11ebd4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2c6a0be9445b532907bb7892ebb9ddd = $(`<div id="html_a2c6a0be9445b532907bb7892ebb9ddd" style="width: 100.0%; height: 100.0%;"><b>桂林荔浦荔江湾</b><br>地址：广西桂林市荔浦县青山镇大石古桥头<br>特色：水中水，山中山，桂林山水<br>价格：¥0起</div>`)[0];
+            popup_f398d6d52b7e442881e1d803f11ebd4d.setContent(html_a2c6a0be9445b532907bb7892ebb9ddd);
+        
+
+        marker_bb5793507b36d0ef320b4fbfb4a19314.bindPopup(popup_f398d6d52b7e442881e1d803f11ebd4d)
+        ;
+
+        
+    
+    
+            var marker_1702f0a7386c47804a5ca0414417eb50 = L.marker(
+                [25.25174180326139, 110.20382456480748],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_a6f40da3f433805a4631e5488cc522ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1702f0a7386c47804a5ca0414417eb50.setIcon(icon_a6f40da3f433805a4631e5488cc522ca);
+        
+    
+        var popup_375f4defc88a5dbe3c87608331f3d227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7024360acb25214d49a25e19f8697a8 = $(`<div id="html_b7024360acb25214d49a25e19f8697a8" style="width: 100.0%; height: 100.0%;"><b>桂林天门山景区</b><br>地址：广西壮族自治区桂林市资源县中峰乡车田湾村<br>特色：3千万年前元古代造山运动开始发育<br>价格：¥15起</div>`)[0];
+            popup_375f4defc88a5dbe3c87608331f3d227.setContent(html_b7024360acb25214d49a25e19f8697a8);
+        
+
+        marker_1702f0a7386c47804a5ca0414417eb50.bindPopup(popup_375f4defc88a5dbe3c87608331f3d227)
+        ;
+
+        
+    
+    
+            var marker_e63c538b589c14c0883b842cab972c3e = L.marker(
+                [25.25380532614059, 110.13982473419817],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_3168ec455cb711b06cc09724d70456fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e63c538b589c14c0883b842cab972c3e.setIcon(icon_3168ec455cb711b06cc09724d70456fa);
+        
+    
+        var popup_e38e15b85e5840e407093f17a83570af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_146c853b833a027c62b21412e5d50c40 = $(`<div id="html_146c853b833a027c62b21412e5d50c40" style="width: 100.0%; height: 100.0%;"><b>金钟山旅游度假区</b><br>地址：广西壮族自治区省桂林市永福县罗锦镇<br>特色：福寿文化与原生态峰林幽谷的完美融合<br>价格：¥0起</div>`)[0];
+            popup_e38e15b85e5840e407093f17a83570af.setContent(html_146c853b833a027c62b21412e5d50c40);
+        
+
+        marker_e63c538b589c14c0883b842cab972c3e.bindPopup(popup_e38e15b85e5840e407093f17a83570af)
+        ;
+
+        
+    
+    
+            var marker_e1fe8116d9db4143b7e7db57393e2935 = L.marker(
+                [25.189728401972697, 110.14463726865144],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_c6dce2cc33c53ece27779f63fdc125c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e1fe8116d9db4143b7e7db57393e2935.setIcon(icon_c6dce2cc33c53ece27779f63fdc125c0);
+        
+    
+        var popup_e835ed96f896f864cd9fdad50c55a6d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fc75db1ca283467818899b5c0ce2753 = $(`<div id="html_0fc75db1ca283467818899b5c0ce2753" style="width: 100.0%; height: 100.0%;"><b>东漓古村</b><br>地址：广西省桂林市灵川县大圩镇潮田河畔<br>特色：看得见山，望得见水，记得住乡愁<br>价格：¥39.9起</div>`)[0];
+            popup_e835ed96f896f864cd9fdad50c55a6d4.setContent(html_0fc75db1ca283467818899b5c0ce2753);
+        
+
+        marker_e1fe8116d9db4143b7e7db57393e2935.bindPopup(popup_e835ed96f896f864cd9fdad50c55a6d4)
+        ;
+
+        
+    
+    
+            var marker_cfa8632fb617c2e9f385651f63f3fe96 = L.marker(
+                [25.22604123967051, 110.18020457546451],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_c8f38ebe7224a9b2417c4d0f40d87045 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_cfa8632fb617c2e9f385651f63f3fe96.setIcon(icon_c8f38ebe7224a9b2417c4d0f40d87045);
+        
+    
+        var popup_d56dbd2fa192c9acf4e80a8b640aac27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f9920a8e094051522444a38032b25b6 = $(`<div id="html_8f9920a8e094051522444a38032b25b6" style="width: 100.0%; height: 100.0%;"><b>猫儿山国家级自然保护区</b><br>地址：广西壮族自治区桂林市兴安县华江瑶族乡高寨村<br>特色：独特的环境形成绚丽的气象景观<br>价格：¥0起</div>`)[0];
+            popup_d56dbd2fa192c9acf4e80a8b640aac27.setContent(html_8f9920a8e094051522444a38032b25b6);
+        
+
+        marker_cfa8632fb617c2e9f385651f63f3fe96.bindPopup(popup_d56dbd2fa192c9acf4e80a8b640aac27)
+        ;
+
+        
+    
+    
+            var marker_56ecebe19bf31e3bb2aa8aaf0b954fc3 = L.marker(
+                [22.832709145752563, 108.40514599540008],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_49938a623c3dce071b3def49e76f3c54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_56ecebe19bf31e3bb2aa8aaf0b954fc3.setIcon(icon_49938a623c3dce071b3def49e76f3c54);
+        
+    
+        var popup_d2e37d019bbcfecf22a35c2dce552bdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2cfec109869943ba44000e1948b6d0c = $(`<div id="html_f2cfec109869943ba44000e1948b6d0c" style="width: 100.0%; height: 100.0%;"><b>南宁方特东盟神画</b><br>地址：广西壮族自治区南宁市青秀区青环路66号方特乐园<br>特色：大型高科技主题乐园<br>价格：¥129起</div>`)[0];
+            popup_d2e37d019bbcfecf22a35c2dce552bdb.setContent(html_f2cfec109869943ba44000e1948b6d0c);
+        
+
+        marker_56ecebe19bf31e3bb2aa8aaf0b954fc3.bindPopup(popup_d2e37d019bbcfecf22a35c2dce552bdb)
+        ;
+
+        
+    
+    
+            var marker_f77232dae10c81bb858e93e1c0b849d5 = L.marker(
+                [24.397590335479528, 111.60558017888319],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_3fa78451e977f9a02676a72373399acf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f77232dae10c81bb858e93e1c0b849d5.setIcon(icon_3fa78451e977f9a02676a72373399acf);
+        
+    
+        var popup_8110860eb91d03e565ba4c8d41baaea2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3780783815641188ab3db0b21dd1c389 = $(`<div id="html_3780783815641188ab3db0b21dd1c389" style="width: 100.0%; height: 100.0%;"><b>十八水原生态景区</b><br>地址：广西贺州市平桂区北郊20公里处的路花山区<br>特色：探十八水，看三奇宝地<br>价格：¥29起</div>`)[0];
+            popup_8110860eb91d03e565ba4c8d41baaea2.setContent(html_3780783815641188ab3db0b21dd1c389);
+        
+
+        marker_f77232dae10c81bb858e93e1c0b849d5.bindPopup(popup_8110860eb91d03e565ba4c8d41baaea2)
+        ;
+
+        
+    
+    
+            var marker_fe8e24b7c5b6359f63cbd996e44b02b4 = L.marker(
+                [24.434578893913333, 111.59231601179758],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_914f6aa5f1f13b3333630989d19f0f55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_fe8e24b7c5b6359f63cbd996e44b02b4.setIcon(icon_914f6aa5f1f13b3333630989d19f0f55);
+        
+    
+        var popup_838b2301c6e3c4604ee184359de41277 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56fe6d793ce426930e369d3dc0a6a755 = $(`<div id="html_56fe6d793ce426930e369d3dc0a6a755" style="width: 100.0%; height: 100.0%;"><b>大桂山国家森林公园</b><br>地址：广西贺州市步头镇大桂山国家森林公园<br>特色：桂东桂林地区有成片森林的旅游度假胜地<br>价格：¥68起</div>`)[0];
+            popup_838b2301c6e3c4604ee184359de41277.setContent(html_56fe6d793ce426930e369d3dc0a6a755);
+        
+
+        marker_fe8e24b7c5b6359f63cbd996e44b02b4.bindPopup(popup_838b2301c6e3c4604ee184359de41277)
+        ;
+
+        
+    
+    
+            var marker_cc79dc49530c853f8840d1f2eaaa8fa5 = L.marker(
+                [24.421380806840848, 111.58575043576657],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_91df9d9a35b6b4c06e3c81df6f539340 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_cc79dc49530c853f8840d1f2eaaa8fa5.setIcon(icon_91df9d9a35b6b4c06e3c81df6f539340);
+        
+    
+        var popup_73b6a052df9ce94d9f5fd2c33c07d13f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e4995bc1cfc6cd3bd932053aa8fc3b1 = $(`<div id="html_3e4995bc1cfc6cd3bd932053aa8fc3b1" style="width: 100.0%; height: 100.0%;"><b>玉石林风景区</b><br>地址：广西壮族自治区贺州市八步区黄田镇玉石林景区<br>特色：石芽、石柱和石峰，奇形怪状<br>价格：¥28.5起</div>`)[0];
+            popup_73b6a052df9ce94d9f5fd2c33c07d13f.setContent(html_3e4995bc1cfc6cd3bd932053aa8fc3b1);
+        
+
+        marker_cc79dc49530c853f8840d1f2eaaa8fa5.bindPopup(popup_73b6a052df9ce94d9f5fd2c33c07d13f)
+        ;
+
+        
+    
+    
+            var marker_00ce379e039f1bcc0d733865f72675af = L.marker(
+                [24.342936866096974, 109.43569584068716],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_b29024961abd3e3a72c700c83a0bfa3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_00ce379e039f1bcc0d733865f72675af.setIcon(icon_b29024961abd3e3a72c700c83a0bfa3c);
+        
+    
+        var popup_31e2788a7b8aa0cf35a56270a871722b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5a3c4b7a6c44c1acea2f3c9eda4d191 = $(`<div id="html_b5a3c4b7a6c44c1acea2f3c9eda4d191" style="width: 100.0%; height: 100.0%;"><b>融水老君洞</b><br>地址：广西省柳州市融水苗族自治县融水镇204省道旁老君洞景区<br>特色：融州古八景之首，堪称水月洞天<br>价格：¥0起</div>`)[0];
+            popup_31e2788a7b8aa0cf35a56270a871722b.setContent(html_b5a3c4b7a6c44c1acea2f3c9eda4d191);
+        
+
+        marker_00ce379e039f1bcc0d733865f72675af.bindPopup(popup_31e2788a7b8aa0cf35a56270a871722b)
+        ;
+
+        
+    
+    
+            var marker_8a3931940b8513baa4e5759cd1f2a721 = L.marker(
+                [24.352349244016107, 109.47712895323498],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_923375f0a57877bc4d5330786803b390 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_8a3931940b8513baa4e5759cd1f2a721.setIcon(icon_923375f0a57877bc4d5330786803b390);
+        
+    
+        var popup_ddb6349010565d241f747adfcc3f42f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adc98280e105521f563a6dddbd97bdb7 = $(`<div id="html_adc98280e105521f563a6dddbd97bdb7" style="width: 100.0%; height: 100.0%;"><b>柳州动物园</b><br>地址：广西柳州市柳南区南郊航银路89号<br>特色：集野生动物人工繁育、展示、科普教育于一体<br>价格：¥15起</div>`)[0];
+            popup_ddb6349010565d241f747adfcc3f42f4.setContent(html_adc98280e105521f563a6dddbd97bdb7);
+        
+
+        marker_8a3931940b8513baa4e5759cd1f2a721.bindPopup(popup_ddb6349010565d241f747adfcc3f42f4)
+        ;
+
+        
+    
+    
+            var marker_6992857805aefaf3a1a916ec949c4f16 = L.marker(
+                [24.2870257454812, 109.39583637210104],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_35c89f9c6685172b5cf5534c55fadcdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6992857805aefaf3a1a916ec949c4f16.setIcon(icon_35c89f9c6685172b5cf5534c55fadcdb);
+        
+    
+        var popup_792aa9b27800262ba934f742f9a55089 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_675512be8cb10e42e644e76b2b216d8f = $(`<div id="html_675512be8cb10e42e644e76b2b216d8f" style="width: 100.0%; height: 100.0%;"><b>百里柳江旅游景区</b><br>地址：广西壮族自治区柳州市城中区东堤旅游码头（军事博物馆旁）<br>特色：览遍柳州城区繁华景致，乘船夜游<br>价格：¥0起</div>`)[0];
+            popup_792aa9b27800262ba934f742f9a55089.setContent(html_675512be8cb10e42e644e76b2b216d8f);
+        
+
+        marker_6992857805aefaf3a1a916ec949c4f16.bindPopup(popup_792aa9b27800262ba934f742f9a55089)
+        ;
+
+        
+    
+    
+            var marker_85a4e784a0922ab45f708329f32c43ad = L.marker(
+                [24.32721792126666, 109.39890799965497],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_055314465bbf359d7c2592f2972ede09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_85a4e784a0922ab45f708329f32c43ad.setIcon(icon_055314465bbf359d7c2592f2972ede09);
+        
+    
+        var popup_31fe56e441cac140660181c97f22a2c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdd6afcf822b4bb3f31738a59ca03df6 = $(`<div id="html_bdd6afcf822b4bb3f31738a59ca03df6" style="width: 100.0%; height: 100.0%;"><b>梦呜苗寨民俗文化体验园</b><br>地址：广西壮族自治区柳州市融水苗族自治县双龙沟原始森林公园<br>特色：休闲旅游好去处<br>价格：¥33起</div>`)[0];
+            popup_31fe56e441cac140660181c97f22a2c2.setContent(html_bdd6afcf822b4bb3f31738a59ca03df6);
+        
+
+        marker_85a4e784a0922ab45f708329f32c43ad.bindPopup(popup_31fe56e441cac140660181c97f22a2c2)
+        ;
+
+        
+    
+    
+            var marker_7256739b10d0def9d3cbe368e82b0953 = L.marker(
+                [24.302507316392187, 109.38517800823848],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_0f1802cefe5956bcb612c57d5f22fb72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7256739b10d0def9d3cbe368e82b0953.setIcon(icon_0f1802cefe5956bcb612c57d5f22fb72);
+        
+    
+        var popup_430e50566c63f6d8e3169bd4d31e73cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec5ce38c2f722bdcffee893b37679262 = $(`<div id="html_ec5ce38c2f722bdcffee893b37679262" style="width: 100.0%; height: 100.0%;"><b>仙人山景区</b><br>地址：广西柳州市三江侗族自治县八江乡布央村仙人山茶场<br>特色：茶园畅游，仿佛置身世外桃源<br>价格：¥0起</div>`)[0];
+            popup_430e50566c63f6d8e3169bd4d31e73cb.setContent(html_ec5ce38c2f722bdcffee893b37679262);
+        
+
+        marker_7256739b10d0def9d3cbe368e82b0953.bindPopup(popup_430e50566c63f6d8e3169bd4d31e73cb)
+        ;
+
+        
+    
+    
+            var marker_4eaee8b67fc526985fc6175c2dd8660c = L.marker(
+                [24.368251043986927, 109.39969472478882],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_39bc499f2851ada99ec477facd041678 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4eaee8b67fc526985fc6175c2dd8660c.setIcon(icon_39bc499f2851ada99ec477facd041678);
+        
+    
+        var popup_e06c6d1f9d8940c6dc741b5085a8b79e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_676aa1b0bf4f98763e78cf38c465ad54 = $(`<div id="html_676aa1b0bf4f98763e78cf38c465ad54" style="width: 100.0%; height: 100.0%;"><b>石门仙湖</b><br>地址：广西省壮族自治区柳州市融安县大良镇石门村仙湖景区<br>特色：都市人的休闲家园<br>价格：¥0起</div>`)[0];
+            popup_e06c6d1f9d8940c6dc741b5085a8b79e.setContent(html_676aa1b0bf4f98763e78cf38c465ad54);
+        
+
+        marker_4eaee8b67fc526985fc6175c2dd8660c.bindPopup(popup_e06c6d1f9d8940c6dc741b5085a8b79e)
+        ;
+
+        
+    
+    
+            var marker_749df4c7750f12f01b63f3423eaad0f9 = L.marker(
+                [24.345827718298104, 109.44229380663106],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_be33cf8e517f89c9bb1b5e89d9fe2cc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_749df4c7750f12f01b63f3423eaad0f9.setIcon(icon_be33cf8e517f89c9bb1b5e89d9fe2cc7);
+        
+    
+        var popup_4600c6536c4dffc1e0db8769868a46b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43cb3e8c07cd4314df65f0ce989ac779 = $(`<div id="html_43cb3e8c07cd4314df65f0ce989ac779" style="width: 100.0%; height: 100.0%;"><b>柳州克里湾欢乐世界</b><br>地址：广西柳州市鱼峰区翠岭路9号柳州卡乐星球主题乐园<br>特色：童话城堡里的欢乐王国<br>价格：¥0起</div>`)[0];
+            popup_4600c6536c4dffc1e0db8769868a46b3.setContent(html_43cb3e8c07cd4314df65f0ce989ac779);
+        
+
+        marker_749df4c7750f12f01b63f3423eaad0f9.bindPopup(popup_4600c6536c4dffc1e0db8769868a46b3)
+        ;
+
+        
+    
+    
+            var marker_4af12374372174e4c4cb0bf194e80a90 = L.marker(
+                [24.32863560854071, 109.38289046308931],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_eca3b132b13080d3c292d78b801bada9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4af12374372174e4c4cb0bf194e80a90.setIcon(icon_eca3b132b13080d3c292d78b801bada9);
+        
+    
+        var popup_b3b738e6a6f83913df027c8d66ae268a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a927d992f9abf4c1a55a13c97bdbbf70 = $(`<div id="html_a927d992f9abf4c1a55a13c97bdbbf70" style="width: 100.0%; height: 100.0%;"><b>鹿寨香桥岩溶国家地质公园</b><br>地址：广西壮族自治区柳州市鹿寨县中渡镇大兆村<br>特色：桥奇、洞绝、弄幽、坑险、水魅、峡美<br>价格：¥18起</div>`)[0];
+            popup_b3b738e6a6f83913df027c8d66ae268a.setContent(html_a927d992f9abf4c1a55a13c97bdbbf70);
+        
+
+        marker_4af12374372174e4c4cb0bf194e80a90.bindPopup(popup_b3b738e6a6f83913df027c8d66ae268a)
+        ;
+
+        
+    
+    
+            var marker_50a2e427f12e83b282c7b89f378095d8 = L.marker(
+                [24.32619813729266, 109.4079360336171],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_164fbb8c71d3180b3f951a22aafec81a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_50a2e427f12e83b282c7b89f378095d8.setIcon(icon_164fbb8c71d3180b3f951a22aafec81a);
+        
+    
+        var popup_1d60011630a07b8860d9d0dd8bd5e7eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbf40a3a714a298de7b37b14d2cd81c0 = $(`<div id="html_cbf40a3a714a298de7b37b14d2cd81c0" style="width: 100.0%; height: 100.0%;"><b>丹洲景区</b><br>地址：广西省柳州市三江县丹洲镇丹洲村<br>特色：漫步江心小岛上的古城，探访历史遗迹<br>价格：¥0起</div>`)[0];
+            popup_1d60011630a07b8860d9d0dd8bd5e7eb.setContent(html_cbf40a3a714a298de7b37b14d2cd81c0);
+        
+
+        marker_50a2e427f12e83b282c7b89f378095d8.bindPopup(popup_1d60011630a07b8860d9d0dd8bd5e7eb)
+        ;
+
+        
+    
+    
+            var marker_2a2e0daa5f78578e33b25496474852c8 = L.marker(
+                [24.333124851444087, 109.40302743620356],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_b98327e5f898c1cefed6dca817066a1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2a2e0daa5f78578e33b25496474852c8.setIcon(icon_b98327e5f898c1cefed6dca817066a1b);
+        
+    
+        var popup_9c7d65dfef4c7529b044330e0f374587 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7f0571814b48a0b9e3b2272dfb956f8 = $(`<div id="html_f7f0571814b48a0b9e3b2272dfb956f8" style="width: 100.0%; height: 100.0%;"><b>龙女沟景区</b><br>地址：广西壮族自治区柳州市融水县四荣乡<br>特色：古老的新苗寨<br>价格：¥0起</div>`)[0];
+            popup_9c7d65dfef4c7529b044330e0f374587.setContent(html_f7f0571814b48a0b9e3b2272dfb956f8);
+        
+
+        marker_2a2e0daa5f78578e33b25496474852c8.bindPopup(popup_9c7d65dfef4c7529b044330e0f374587)
+        ;
+
+        
+    
+    
+            var marker_68f282c43726fc6713ac58ae09586d18 = L.marker(
+                [23.453887194332907, 111.30607683995898],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_609dee193850f25ba6c95a6287836dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_68f282c43726fc6713ac58ae09586d18.setIcon(icon_609dee193850f25ba6c95a6287836dc9);
+        
+    
+        var popup_9d5a73a5454b707b5db4f0ec2bcddf43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7468bbd044f795de5cbe306b0a738e5 = $(`<div id="html_d7468bbd044f795de5cbe306b0a738e5" style="width: 100.0%; height: 100.0%;"><b>石龙大峡谷</b><br>地址：广西壮族自治区梧州市藤县石表山休闲旅游风景区内<br>特色：观光、寻幽、休闲、礼佛的好地方<br>价格：¥40起</div>`)[0];
+            popup_9d5a73a5454b707b5db4f0ec2bcddf43.setContent(html_d7468bbd044f795de5cbe306b0a738e5);
+        
+
+        marker_68f282c43726fc6713ac58ae09586d18.bindPopup(popup_9d5a73a5454b707b5db4f0ec2bcddf43)
+        ;
+
+        
+    
+    
+            var marker_2c89f3f390725c1eb984496293563e4f = L.marker(
+                [23.432607600856688, 111.28726180619151],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_66973d31fbb25e4e3d7ad87025ed07e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2c89f3f390725c1eb984496293563e4f.setIcon(icon_66973d31fbb25e4e3d7ad87025ed07e0);
+        
+    
+        var popup_d568990a6f3f98a20b48685d74b5ecb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbb78f1ac095cf9f49db6685816096ec = $(`<div id="html_dbb78f1ac095cf9f49db6685816096ec" style="width: 100.0%; height: 100.0%;"><b>石表山</b><br>地址：广西壮族自治区梧州市藤县象棋镇道家村<br>特色：观光、娱乐、休闲、疗养场所<br>价格：¥70起</div>`)[0];
+            popup_d568990a6f3f98a20b48685d74b5ecb2.setContent(html_dbb78f1ac095cf9f49db6685816096ec);
+        
+
+        marker_2c89f3f390725c1eb984496293563e4f.bindPopup(popup_d568990a6f3f98a20b48685d74b5ecb2)
+        ;
+
+        
+    
+    
+            var marker_0a85b4cf4c1af849d528deebbaf50fd5 = L.marker(
+                [23.5039004361203, 111.27364110415363],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_1f9399f03b7777efa7f9fef973e77767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_0a85b4cf4c1af849d528deebbaf50fd5.setIcon(icon_1f9399f03b7777efa7f9fef973e77767);
+        
+    
+        var popup_0984e084acf57b8e23a4938b1608b80e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71aad34ffc5ca725c501117d803724df = $(`<div id="html_71aad34ffc5ca725c501117d803724df" style="width: 100.0%; height: 100.0%;"><b>道家沙滩公园</b><br>地址：广西省梧州市藤县象棋镇道家村石表山风景区内<br>特色：天人合一山水诗画景区<br>价格：¥90起</div>`)[0];
+            popup_0984e084acf57b8e23a4938b1608b80e.setContent(html_71aad34ffc5ca725c501117d803724df);
+        
+
+        marker_0a85b4cf4c1af849d528deebbaf50fd5.bindPopup(popup_0984e084acf57b8e23a4938b1608b80e)
+        ;
+
+        
+    
+    
+            var marker_b746ed3dbf017463ffbd0ff6c3ae14f4 = L.marker(
+                [24.686004946643525, 108.04832836954454],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_e5c91cdc9425bdc68d96c4ced8f81e15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b746ed3dbf017463ffbd0ff6c3ae14f4.setIcon(icon_e5c91cdc9425bdc68d96c4ced8f81e15);
+        
+    
+        var popup_bc5d4f409a3542b003fee192d3457d03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_279146c3731b4d8217df8de06cd29735 = $(`<div id="html_279146c3731b4d8217df8de06cd29735" style="width: 100.0%; height: 100.0%;"><b>巴马盘阳河风景区</b><br>地址：广西壮族自治区河池市巴马瑶族自治县甲篆乡208省道<br>特色：乘竹筏欣赏山水美景<br>价格：¥75起</div>`)[0];
+            popup_bc5d4f409a3542b003fee192d3457d03.setContent(html_279146c3731b4d8217df8de06cd29735);
+        
+
+        marker_b746ed3dbf017463ffbd0ff6c3ae14f4.bindPopup(popup_bc5d4f409a3542b003fee192d3457d03)
+        ;
+
+        
+    
+    
+            var marker_9388be572355186408d36a51d0970875 = L.marker(
+                [24.728613648539625, 108.06295517318166],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_f6cfd1f41073941651479163dd52a390 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9388be572355186408d36a51d0970875.setIcon(icon_f6cfd1f41073941651479163dd52a390);
+        
+    
+        var popup_eb796514e8d8a9639ec6941cd7e85532 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fb1e2aac84be3b6a9c967e852bf9695 = $(`<div id="html_9fb1e2aac84be3b6a9c967e852bf9695" style="width: 100.0%; height: 100.0%;"><b>凤山世界地质公园</b><br>地址：广西壮族自治区河池市凤山县袍里乡坡心村观音路<br>特色：休闲好去处<br>价格：¥80起</div>`)[0];
+            popup_eb796514e8d8a9639ec6941cd7e85532.setContent(html_9fb1e2aac84be3b6a9c967e852bf9695);
+        
+
+        marker_9388be572355186408d36a51d0970875.bindPopup(popup_eb796514e8d8a9639ec6941cd7e85532)
+        ;
+
+        
+    
+    
+            var marker_ca6f5489e57ba03f39cdd374a541b741 = L.marker(
+                [24.69933434577277, 108.09254054151454],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_a145b204f54ea3ba3e2716b98c9061cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ca6f5489e57ba03f39cdd374a541b741.setIcon(icon_a145b204f54ea3ba3e2716b98c9061cd);
+        
+    
+        var popup_7bc83c397c1f0591dcd4a008b49b5299 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26610da2c74bb90c5cccb167f8c42807 = $(`<div id="html_26610da2c74bb90c5cccb167f8c42807" style="width: 100.0%; height: 100.0%;"><b>巴马长寿岛</b><br>地址：广西壮族自治区巴马瑶族自治县赐福湖坡贵村长寿岛景区<br>特色：领略景区的民族特色—长寿乡的世外桃源<br>价格：¥60起</div>`)[0];
+            popup_7bc83c397c1f0591dcd4a008b49b5299.setContent(html_26610da2c74bb90c5cccb167f8c42807);
+        
+
+        marker_ca6f5489e57ba03f39cdd374a541b741.bindPopup(popup_7bc83c397c1f0591dcd4a008b49b5299)
+        ;
+
+        
+    
+    
+            var marker_da18e88a45580caeb0a7dbbf10d83ac3 = L.marker(
+                [24.71490097632757, 108.0991803870292],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_da43a0e4f502b766a65fb7b36484fba8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_da18e88a45580caeb0a7dbbf10d83ac3.setIcon(icon_da43a0e4f502b766a65fb7b36484fba8);
+        
+    
+        var popup_309c67e184307378b2db192b13dfc15a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e3e05ef9a4bf8f8c329983bfb74920e = $(`<div id="html_2e3e05ef9a4bf8f8c329983bfb74920e" style="width: 100.0%; height: 100.0%;"><b>百魔洞</b><br>地址：广西壮族自治区河池市巴马县甲篆乡坡月村<br>特色：恢弘的穿岩，神秘的天坑<br>价格：¥80起</div>`)[0];
+            popup_309c67e184307378b2db192b13dfc15a.setContent(html_2e3e05ef9a4bf8f8c329983bfb74920e);
+        
+
+        marker_da18e88a45580caeb0a7dbbf10d83ac3.bindPopup(popup_309c67e184307378b2db192b13dfc15a)
+        ;
+
+        
+    
+    
+            var marker_f4aed5faa1faadc89e4082cd1b522c75 = L.marker(
+                [24.74077178507791, 108.09468076524557],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_b0fadf2f34e4f351fab63e2e60f578df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f4aed5faa1faadc89e4082cd1b522c75.setIcon(icon_b0fadf2f34e4f351fab63e2e60f578df);
+        
+    
+        var popup_c0a66bda260423d9856a15d7a63f9b12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aa0661a1c59e854f09ce0c7a3847269 = $(`<div id="html_9aa0661a1c59e854f09ce0c7a3847269" style="width: 100.0%; height: 100.0%;"><b>巴马水晶宫景区</b><br>地址：广西河池市巴马瑶族自治县那社乡大洛村牛洞屯，距县城约43公里<br>特色：恍如置身一个玉砌般的童话世界<br>价格：¥128起</div>`)[0];
+            popup_c0a66bda260423d9856a15d7a63f9b12.setContent(html_9aa0661a1c59e854f09ce0c7a3847269);
+        
+
+        marker_f4aed5faa1faadc89e4082cd1b522c75.bindPopup(popup_c0a66bda260423d9856a15d7a63f9b12)
+        ;
+
+        
+    
+    
+            var marker_e892923e272157452ae6c9bfb8980b62 = L.marker(
+                [24.734743320943526, 108.08806360694705],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_160298df3015ae1abcf0c997a57d23fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e892923e272157452ae6c9bfb8980b62.setIcon(icon_160298df3015ae1abcf0c997a57d23fb);
+        
+    
+        var popup_64007765c2a3c348dd706fc27c880370 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_006fe3f9e4b0b48dd82905577fd055b6 = $(`<div id="html_006fe3f9e4b0b48dd82905577fd055b6" style="width: 100.0%; height: 100.0%;"><b>三门海</b><br>地址：广西壮族自治区河池市凤山县袍里乡坡心村<br>特色：冬暖夏凉的天然氧吧<br>价格：¥49起</div>`)[0];
+            popup_64007765c2a3c348dd706fc27c880370.setContent(html_006fe3f9e4b0b48dd82905577fd055b6);
+        
+
+        marker_e892923e272157452ae6c9bfb8980b62.bindPopup(popup_64007765c2a3c348dd706fc27c880370)
+        ;
+
+        
+    
+    
+            var marker_6ce6557ecef555caad35efae764aea94 = L.marker(
+                [24.691210383079866, 108.11519887793243],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_2671a799aee86cdc4c10615caa92308a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6ce6557ecef555caad35efae764aea94.setIcon(icon_2671a799aee86cdc4c10615caa92308a);
+        
+    
+        var popup_90267a59ff465b97449372bada3b22ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68bd6ad40708f1319760369cae7258e2 = $(`<div id="html_68bd6ad40708f1319760369cae7258e2" style="width: 100.0%; height: 100.0%;"><b>南丹矿物温泉度假区</b><br>地址：广西河池市市南丹县车河镇堂汉村拉高屯南丹温泉公园<br>特色：水质清澈透明软滑柔顺含有对人体有益的矿物<br>价格：¥98起</div>`)[0];
+            popup_90267a59ff465b97449372bada3b22ec.setContent(html_68bd6ad40708f1319760369cae7258e2);
+        
+
+        marker_6ce6557ecef555caad35efae764aea94.bindPopup(popup_90267a59ff465b97449372bada3b22ec)
+        ;
+
+        
+    
+    
+            var marker_ed14a961861b60d463e172054dcd51be = L.marker(
+                [24.643989928972477, 108.10377706358304],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_40943abbc1e84ad8fafa3d0aa0d9bbee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ed14a961861b60d463e172054dcd51be.setIcon(icon_40943abbc1e84ad8fafa3d0aa0d9bbee);
+        
+    
+        var popup_dc684d6ce4d9daf044424d080e427561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_395d3aff5f4a8d1fbec217f861dec873 = $(`<div id="html_395d3aff5f4a8d1fbec217f861dec873" style="width: 100.0%; height: 100.0%;"><b>巴马仁寿文化源</b><br>地址：广西省河池市巴马县那桃乡平林村敢烟屯<br>特色：巴马长寿文化之源<br>价格：¥40起</div>`)[0];
+            popup_dc684d6ce4d9daf044424d080e427561.setContent(html_395d3aff5f4a8d1fbec217f861dec873);
+        
+
+        marker_ed14a961861b60d463e172054dcd51be.bindPopup(popup_dc684d6ce4d9daf044424d080e427561)
+        ;
+
+        
+    
+    
+            var marker_28462f26e46628124bd85ea439a33ae6 = L.marker(
+                [24.68346753226614, 108.04447683361012],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_44b11fbfae41618b7162713b6007e478 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_28462f26e46628124bd85ea439a33ae6.setIcon(icon_44b11fbfae41618b7162713b6007e478);
+        
+    
+        var popup_8b9ca7a411e91dc76c50a80089b68591 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fe21e0181616861317a388e4579cacb = $(`<div id="html_2fe21e0181616861317a388e4579cacb" style="width: 100.0%; height: 100.0%;"><b>牛角寨瀑布景区</b><br>地址：广西壮族自治区河池市环江毛南族自治县明伦镇八面村牛角<br>特色：原生态的多级瀑布群<br>价格：¥30起</div>`)[0];
+            popup_8b9ca7a411e91dc76c50a80089b68591.setContent(html_2fe21e0181616861317a388e4579cacb);
+        
+
+        marker_28462f26e46628124bd85ea439a33ae6.bindPopup(popup_8b9ca7a411e91dc76c50a80089b68591)
+        ;
+
+        
+    
+    
+            var marker_02c9becd0c602d9c278d76c8026de19c = L.marker(
+                [24.72667911598865, 108.13072655167561],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_48f5ed0c5af36778e463deb3ee396cad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_02c9becd0c602d9c278d76c8026de19c.setIcon(icon_48f5ed0c5af36778e463deb3ee396cad);
+        
+    
+        var popup_6ecd8a0001c6d2395c9aee0fa73a9f5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56cdd191429cd10b51b58d9e60b85b52 = $(`<div id="html_56cdd191429cd10b51b58d9e60b85b52" style="width: 100.0%; height: 100.0%;"><b>歌娅思谷</b><br>地址：广西河池市南丹县里湖乡甘河屯甘河小学北侧<br>特色：体验白裤瑶民族文化<br>价格：¥99起</div>`)[0];
+            popup_6ecd8a0001c6d2395c9aee0fa73a9f5f.setContent(html_56cdd191429cd10b51b58d9e60b85b52);
+        
+
+        marker_02c9becd0c602d9c278d76c8026de19c.bindPopup(popup_6ecd8a0001c6d2395c9aee0fa73a9f5f)
+        ;
+
+        
+    
+    
+            var marker_4583036882fd9309e3ef5692226c7642 = L.marker(
+                [23.698701639401808, 109.27627623012984],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_0fa0f363a328ea027f81274026508d86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4583036882fd9309e3ef5692226c7642.setIcon(icon_0fa0f363a328ea027f81274026508d86);
+        
+    
+        var popup_563a8c2c0d1a7da0ebd501698a0ea203 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_678f9f1e2659ae4d0af21ffcc098c185 = $(`<div id="html_678f9f1e2659ae4d0af21ffcc098c185" style="width: 100.0%; height: 100.0%;"><b>圣堂山旅游风景区</b><br>地址：广西族自治区来宾市金秀瑶族自治县金平路<br>特色：人间桃源仙境<br>价格：¥0起</div>`)[0];
+            popup_563a8c2c0d1a7da0ebd501698a0ea203.setContent(html_678f9f1e2659ae4d0af21ffcc098c185);
+        
+
+        marker_4583036882fd9309e3ef5692226c7642.bindPopup(popup_563a8c2c0d1a7da0ebd501698a0ea203)
+        ;
+
+        
+    
+    
+            var marker_862066dee5d399dd3d8aa6d6a6e06016 = L.marker(
+                [23.6867449075367, 109.26711310081102],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_84eb09841342b2d3f32d8598244704f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_862066dee5d399dd3d8aa6d6a6e06016.setIcon(icon_84eb09841342b2d3f32d8598244704f9);
+        
+    
+        var popup_70cee2851564c8c6c110f67f8de37d9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dfb5ee643328aa6e16558b7132e8ce7 = $(`<div id="html_1dfb5ee643328aa6e16558b7132e8ce7" style="width: 100.0%; height: 100.0%;"><b>广西银杉公园</b><br>地址：广西壮族自治区来宾市金秀瑶族自治县山原始森林中<br>特色：休闲旅游好去处<br>价格：¥0起</div>`)[0];
+            popup_70cee2851564c8c6c110f67f8de37d9a.setContent(html_1dfb5ee643328aa6e16558b7132e8ce7);
+        
+
+        marker_862066dee5d399dd3d8aa6d6a6e06016.bindPopup(popup_70cee2851564c8c6c110f67f8de37d9a)
+        ;
+
+        
+    
+    
+            var marker_28c31798c8c23289c431d548122b0610 = L.marker(
+                [22.669542563887656, 110.22780896938926],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_27d600bc192eb7613a3ebcdca7826e8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_28c31798c8c23289c431d548122b0610.setIcon(icon_27d600bc192eb7613a3ebcdca7826e8d);
+        
+    
+        var popup_580642000650f2c0a97845e003b0b815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_379e79a62685e8466ca4761c9d64d4d3 = $(`<div id="html_379e79a62685e8466ca4761c9d64d4d3" style="width: 100.0%; height: 100.0%;"><b>铜石岭</b><br>地址：广西玉林北流市城东１０公里的民安镇附近<br>特色：休闲旅游放松的好去处<br>价格：¥0起</div>`)[0];
+            popup_580642000650f2c0a97845e003b0b815.setContent(html_379e79a62685e8466ca4761c9d64d4d3);
+        
+
+        marker_28c31798c8c23289c431d548122b0610.bindPopup(popup_580642000650f2c0a97845e003b0b815)
+        ;
+
+        
+    
+    
+            var marker_7fc3b9c9ef70a77af2c170208a882217 = L.marker(
+                [22.67098189927864, 110.20675086553891],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_23a4f32c238b7e05710f617a05298c0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7fc3b9c9ef70a77af2c170208a882217.setIcon(icon_23a4f32c238b7e05710f617a05298c0b);
+        
+    
+        var popup_8ca96c9a66ddccf50d68d7b838b08eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb8925a0e02eccb1513f76d15e9124fc = $(`<div id="html_fb8925a0e02eccb1513f76d15e9124fc" style="width: 100.0%; height: 100.0%;"><b>鹿峰山风景区</b><br>地址：广西省玉林市兴业县城隍镇鹿峰山景区<br>特色：岩溶石山，峰从起伏，绿水青山，景色迷人<br>价格：¥40起</div>`)[0];
+            popup_8ca96c9a66ddccf50d68d7b838b08eb4.setContent(html_fb8925a0e02eccb1513f76d15e9124fc);
+        
+
+        marker_7fc3b9c9ef70a77af2c170208a882217.bindPopup(popup_8ca96c9a66ddccf50d68d7b838b08eb4)
+        ;
+
+        
+    
+    
+            var marker_6f3e32371293e544464635754533681c = L.marker(
+                [22.61239653213112, 110.15743287818411],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_d9d11b35f4fd63c399ebd4478c288759 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6f3e32371293e544464635754533681c.setIcon(icon_d9d11b35f4fd63c399ebd4478c288759);
+        
+    
+        var popup_40c457756bfc4161b64a9b5c83097328 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_532cae6c08c8c518066c8b5c627d4556 = $(`<div id="html_532cae6c08c8c518066c8b5c627d4556" style="width: 100.0%; height: 100.0%;"><b>都峤山风景区</b><br>地址：广西壮族自治区玉林市容县容州镇木进村<br>特色：天然氧吧，风光奇丽而闻名于世<br>价格：¥0起</div>`)[0];
+            popup_40c457756bfc4161b64a9b5c83097328.setContent(html_532cae6c08c8c518066c8b5c627d4556);
+        
+
+        marker_6f3e32371293e544464635754533681c.bindPopup(popup_40c457756bfc4161b64a9b5c83097328)
+        ;
+
+        
+    
+    
+            var marker_fbe1b0167dfce005ef2e17d5f048eae7 = L.marker(
+                [22.6588561887045, 110.20294620312468],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_342e8148a10bc04c5326243afb94cd84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_fbe1b0167dfce005ef2e17d5f048eae7.setIcon(icon_342e8148a10bc04c5326243afb94cd84);
+        
+    
+        var popup_a35be478ec973c795512832c3d386bb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02537a8c4178cac77cfc2d98567f90b8 = $(`<div id="html_02537a8c4178cac77cfc2d98567f90b8" style="width: 100.0%; height: 100.0%;"><b>六万大山森林公园</b><br>地址：广西壮族自治区玉林市福绵区成均镇六万大山森林公园<br>特色：原生态的“天然氧吧”<br>价格：¥0起</div>`)[0];
+            popup_a35be478ec973c795512832c3d386bb2.setContent(html_02537a8c4178cac77cfc2d98567f90b8);
+        
+
+        marker_fbe1b0167dfce005ef2e17d5f048eae7.bindPopup(popup_a35be478ec973c795512832c3d386bb2)
+        ;
+
+        
+    
+    
+            var marker_d56be73223c3c1337be89bf0fad58eb1 = L.marker(
+                [22.647031250577072, 110.19981695352142],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_65a4ae692888603d8d56240955b4067c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d56be73223c3c1337be89bf0fad58eb1.setIcon(icon_65a4ae692888603d8d56240955b4067c);
+        
+    
+        var popup_14c5a0b4f8e423e8845f6c270c7cb9cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06f463747aa83af0072b282af7f8deae = $(`<div id="html_06f463747aa83af0072b282af7f8deae" style="width: 100.0%; height: 100.0%;"><b>容州古城</b><br>地址：广西壮族自治区玉林市容县东外街<br>特色：体验容县风俗民情<br>价格：¥0起</div>`)[0];
+            popup_14c5a0b4f8e423e8845f6c270c7cb9cf.setContent(html_06f463747aa83af0072b282af7f8deae);
+        
+
+        marker_d56be73223c3c1337be89bf0fad58eb1.bindPopup(popup_14c5a0b4f8e423e8845f6c270c7cb9cf)
+        ;
+
+        
+    
+    
+            var marker_138d21f3a7d5b3f62c9cf43c1d3cc45f = L.marker(
+                [22.7033372600894, 110.23013370332572],
+                {}
+            ).addTo(marker_cluster_b80f135de7b4bed150b81d7105e68cf0);
+        
+    
+            var icon_233451eaef58510e856084e6a4cc3949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_138d21f3a7d5b3f62c9cf43c1d3cc45f.setIcon(icon_233451eaef58510e856084e6a4cc3949);
+        
+    
+        var popup_e85baddc7625479ee182b8de43b625c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c787c3761419c0d8497c0e1c004e06d = $(`<div id="html_8c787c3761419c0d8497c0e1c004e06d" style="width: 100.0%; height: 100.0%;"><b>五彩田园农业嘉年华</b><br>地址：广西壮族自治区玉林市玉州区茂林镇鹿塘社区<br>特色：农耕文化五谷展示，体验农事农趣<br>价格：¥0起</div>`)[0];
+            popup_e85baddc7625479ee182b8de43b625c5.setContent(html_8c787c3761419c0d8497c0e1c004e06d);
+        
+
+        marker_138d21f3a7d5b3f62c9cf43c1d3cc45f.bindPopup(popup_e85baddc7625479ee182b8de43b625c5)
+        ;
+
+        
+    
+</script>
+</html>
